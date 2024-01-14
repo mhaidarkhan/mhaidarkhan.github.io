@@ -1,7 +1,17 @@
-title: Muhammad Haidar Khan
-logo: /images/headshot_circle.png
-description: I'm a data storyteller, weaving insights into narratives that drive impact and innovation. 📊✨
-show_downloads: False
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
 
-#![Muhammad Haidar Khan](https://mhaidarkhan.github.io/images/headshot_circle.png)
+remote_theme: ngzhio/jekyll-theme-hamilton
+title: Muhamad Haidar Khan
+description: mhkvlog@gmail.com
+avatar: /assets/me.png
+subscribe: false
+location: Lahore, Punjab, Pakistan
+author: Muhammad Haidar Khan
+skin: midnight
+social:
+  name: Muhammad Haidar Khan
+  links:
+    - https://linkedin.com/in/haidarkhan
+    - https://github.com/mhaidarkhan
+
