@@ -2,6 +2,17 @@
 
 *Pause, you who read these lines, and ponder the intricate trail of binary digits, circuits, and algorithms that has shaped your digital existence. Consider the uninterrupted flow of data points, decisions, and connections that have led you to this very moment—a sequence initiated by the birth of the initial bit in the vast network of information.*
 
+Hello, I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, I've been driven by curiosity and a quest for purpose.
+
+With a strong interest in tech and entrepreneurship, I delved into website development at the age of 8. Eager to learn and explore, I continuously seek new opportunities and horizons.
+
+Life has been a journey of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, I excel in marketing and sales tasks, fueled by a desire to make my family proud.
+
+Every challenge is an opportunity for growth, and I approach life with determination to achieve my goals. Join me on this journey of exploration, where experiences, skills, and unwavering determination converge to create a meaningful impact on the world. Let's write a story of resilience, learning, and achievement together.
+
+**Explore Further By Scrolling Down!**
+
+---
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
 
 ---
