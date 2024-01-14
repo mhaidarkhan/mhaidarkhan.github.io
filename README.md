@@ -1,4 +1,4 @@
-## Welcome! 💻
+## Welcome! <span style="color: yellow;">💻</span>
 
 Hello, I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, I've been driven by curiosity and a quest for purpose.
 
