@@ -3,3 +3,4 @@ logo: images/headshot_circle.png
 description: I'm a data storyteller, weaving insights into narratives that drive impact and innovation. 📊✨
 show_downloads: FALSE
 theme: jekyll-theme-caymaN
+og_image: /images/resume.png
