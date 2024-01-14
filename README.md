@@ -1,3 +1,4 @@
+![Muhammad Haidar Khan](https://mhaidarkhan.github.io/images/headshot_circle.png)
 # MUHAMMAD HAIDAR KHAN
 
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
