@@ -1,3 +1,7 @@
+## Welcome! 💻
+
+*Pause, you who read these lines, and ponder the intricate trail of binary digits, circuits, and algorithms that has shaped your digital existence. Consider the uninterrupted flow of data points, decisions, and connections that have led you to this very moment—a sequence initiated by the birth of the initial bit in the vast network of information.*
+
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
 
 ---
