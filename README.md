@@ -1,12 +1,12 @@
-MUHAMMAD HAIDAR KHAN
-========================================
-+92 313 3659896 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | mhkvlog@gmail.com | Lahore, Pakistan
+# MUHAMMAD HAIDAR KHAN
+
+[+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
 
 **Date of Birth:** 1/9/2004
 
 ---
 
-### **EDUCATION**
+## EDUCATION
 - **BSc (Hons) Computer Science**
   - BeaconHouse National University | 2025 - 29
 
@@ -15,7 +15,7 @@ MUHAMMAD HAIDAR KHAN
 
 ---
 
-### **TECHNICAL SKILLS**
+## TECHNICAL SKILLS
 - **Languages:** Python
 - **Tools:** Git, Bash, MATLAB
 - **Machine Learning Frameworks:** Keras, PyTorch, FastAi
@@ -28,7 +28,7 @@ MUHAMMAD HAIDAR KHAN
 
 ---
 
-### **PROFESSIONAL CERTIFICATES**
+## PROFESSIONAL CERTIFICATES
 - **Google Advanced Data Analytics Professional Certificate** | 2023-24
   - Applied statistical analysis, Python, and machine learning in real-world projects.
   - Developed effective data communication and problem-solving skills demonstrated in a capstone project.
@@ -43,7 +43,7 @@ MUHAMMAD HAIDAR KHAN
 
 ---
 
-### **SPECIALIZATIONS**
+## SPECIALIZATIONS
 - **University of Illinois at Urbana-Champaign Strategic Leadership and Management Specialization** | 2023-24
   - Developed practical strategies for effective organizational leadership.
   - Mastered skills in strategic management, negotiation, and business strategy.
@@ -51,7 +51,7 @@ MUHAMMAD HAIDAR KHAN
 
 ---
 
-### **PROJECTS**
+## PROJECTS
 **Automatidata - Google Data Analytics Certificate Course 2 Project** | Jan 2024 - Jan 2024
 - Led the development of a regression model for the New York City Taxi and Limousine Commission (TLC).
 - Successfully conveyed project progress and insights through the completion of the Course 2 PACE strategy document, Jupyter notebook project file, and an executive summary for the project team.
@@ -66,7 +66,7 @@ MUHAMMAD HAIDAR KHAN
 
 ---
 
-### **COURSES**
+## COURSES
 - **What is Data Science? – IBM**
   - Explored the foundational concepts of data science, gaining a comprehensive understanding of the field.
 
