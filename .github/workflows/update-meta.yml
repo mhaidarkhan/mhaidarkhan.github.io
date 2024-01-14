@@ -1,0 +1,25 @@
+name: Update Open Graph Meta Tags
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Update Open Graph Meta Tags
+        run: |
+          echo -e '---\n'"$(cat _config.yml)"'\nog_image: /images/resume.png\n---' > _config.yml
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "GitHub Actions"
+          git add _config.yml
+          git commit -m "Update Open Graph Meta Tags" || true
+          git push
