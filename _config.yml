@@ -3,8 +3,8 @@ plugins:
 
 remote_theme: ngzhio/jekyll-theme-hamilton
 title: Muhamad Haidar Khan
-description: Thank You For Visting! :)
-avatar: mhaidarkhan.github.io/images/headshot_circle.png
+description: Thank You For Visiting! :)
+avatar: https://avatars.githubusercontent.com/u/132541949?s=400&u=51f6429969ae06e9127340334bba8c83b068c3d3&v=4
 subscribe: false
 location: Lahore, Punjab, Pakistan
 author: Haidar
