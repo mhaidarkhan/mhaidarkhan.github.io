@@ -4,13 +4,13 @@ plugins:
 remote_theme: ngzhio/jekyll-theme-hamilton
 title: Muhamad Haidar Khan
 description: Thank You For Visting! :)
-avatar: mhaidarkhan.github.io/haidar.png
+avatar: mhaidarkhan.github.io/images/headshot_circle.png
 subscribe: false
 location: Lahore, Punjab, Pakistan
 author: Haidar
 skin: midnight
 social:
-  name: Muhamad Haidar Khan
+  name: Haidar
   links:
     - https://linkedin.com/in/haidarkhan
     - https://github.com/mhaidarkhan
