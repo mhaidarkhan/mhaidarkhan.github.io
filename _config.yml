@@ -3,7 +3,7 @@ plugins:
 
 remote_theme: ngzhio/jekyll-theme-hamilton
 title: Muhamad Haidar Khan
-description: mhkvlog@gmail.com
+description: Thank You For Visting! :)
 avatar: /assets/me.png
 subscribe: false
 location: Lahore, Punjab, Pakistan
@@ -14,4 +14,4 @@ social:
   links:
     - https://linkedin.com/in/haidarkhan
     - https://github.com/mhaidarkhan
-    - https://mhaidarkhan.github.io/assets/habib.pdf
+    - https://mhaidarkhan.github.io/assets/resume.pdf
