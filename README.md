@@ -1,12 +1,13 @@
-## Welcome! <span style="color: yellow;">💻</span>
+## Welcome!💻
 
-Hello, I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, I've been driven by curiosity and a quest for purpose.
+Hello, I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
 
-With a strong interest in tech and entrepreneurship, I delved into website development at the age of 8. Eager to learn and explore, I continuously seek new opportunities and horizons.
+With a strong passion for tech and entrepreneurship, I started delving into website development at the age of 8. Eager to learn and explore, I consistently seek new opportunities and horizons.
 
-Life has been a journey of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, I excel in marketing and sales tasks, fueled by a desire to make my family proud.
+Life for me is a continual journey of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, my motivation comes from a deep desire to make my family proud.
 
-Every challenge is an opportunity for growth, and I approach life with determination to achieve my goals. Join me on this journey of exploration, where experiences, skills, and unwavering determination converge to create a meaningful impact on the world. Let's write a story of resilience, learning, and achievement together.
+Every challenge I encounter is seen as an opportunity for personal growth, and I approach life with determination to achieve my goals. Join me on this exploration, where experiences, skills, and unwavering determination come together to create a meaningful impact on the world. Let's write a story of resilience, learning, and achievement together.
+
 
 **Explore Further By Scrolling Down!**
 
