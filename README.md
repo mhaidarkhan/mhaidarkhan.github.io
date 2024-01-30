@@ -1,17 +1,18 @@
-## Welcome!💻
+# Welcome!💻
 
-Hello, I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
+### Hello, 
+I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
 
-With a strong passion for tech and entrepreneurship, I started delving into website development at the age of 8. Eager to learn and explore, I consistently seek new opportunities and horizons.
+With a strong passion for finding answers, I am dedicated to a lifelong journey of learning and adapting to new challenges. Life, for me, is a continual path of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, my motivation stems from a deep desire to make my family proud.
 
-Life for me is a continual journey of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, my motivation comes from a deep desire to make my family proud.
+Every challenge I encounter, I view as an opportunity for personal growth, and I approach life with determination to achieve my goals.
 
-Every challenge I encounter is seen as an opportunity for personal growth, and I approach life with determination to achieve my goals. Join me on this exploration, where experiences, skills, and unwavering determination come together to create a meaningful impact on the world. Let's write a story of resilience, learning, and achievement together.
-
-
-**Explore Further By Scrolling Down!**
+Join me on this exploration, so together we can create a meaningful impact on the world. Let's change this world with something amazing and extraordinary.
 
 ---
+
+### Connect with me:
+
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
 
 ---
@@ -25,16 +26,67 @@ Every challenge I encounter is seen as an opportunity for personal growth, and I
 
 ---
 
-## TECHNICAL SKILLS
-- **Languages:** Python
-- **Tools:** Git, Bash, MATLAB
-- **Machine Learning Frameworks:** Keras, PyTorch, FastAi
-- **Web Development:** React.js, Redux, Django, Flask, Node.js
-- **Cloud Platforms:** Google Cloud Platform, Firebase
-- **Database:** MongoDB
-- **Frontend:** HTML, CSS, Bootstrap
-- **Visualization:** Tableau, Figma
-- **Others:** Unity3D, EasyAR, Flutter, Nginx, WebRTC, Socket.io, Selenium Webdriver
+## SKILLS
+
+### Interpersonal Skills
+
+- Curiosity
+- Adaptability
+- Collaboration
+
+### Data Analysis and Programming
+
+- Python Programming for Data Analysis
+- SQL
+
+### Data Visualization
+
+- Tableau
+- Figma
+
+### Tools and Platforms
+
+- GitHub
+- Microsoft Excel
+- JupyterLab, Jupyter Notebook
+- Anaconda
+- Stack Overflow
+
+### Business Intelligence
+
+- Business Intelligence Concepts
+- Data Warehousing
+- Data Modeling
+- Dashboard Creation
+- Business Analytics
+
+### Digital Marketing and Analytics
+
+- Search Engine Optimization 
+- Social Media Marketing
+- Display Advertising
+- Email Marketing
+- Content Marketing
+- Analytics and Data Insights
+- Google Ads and Analytics
+
+### Data Cleaning and Transformation
+
+- Data Cleaning and Transformation
+- Data Exploration and Wrangling
+
+### Storytelling and Ethics
+
+- Data Storytelling
+- Data Ethics and Privacy
+
+### Machine Learning
+
+- Machine Learning
+- Deep Learning
+- Feature Engineering
+- Model Development and Evaluation
+- Deployment of Machine Learning Models
 
 ---
 
@@ -58,21 +110,6 @@ Every challenge I encounter is seen as an opportunity for personal growth, and I
   - Developed practical strategies for effective organizational leadership.
   - Mastered skills in strategic management, negotiation, and business strategy.
   - Applied skills in strategic management, negotiation, and business strategy through a capstone project.
-
----
-
-## PROJECTS
-**Automatidata - Google Data Analytics Certificate Course 2 Project** | Jan 2024 - Jan 2024
-- Led the development of a regression model for the New York City Taxi and Limousine Commission (TLC).
-- Successfully conveyed project progress and insights through the completion of the Course 2 PACE strategy document, Jupyter notebook project file, and an executive summary for the project team.
-
-**TikTok - Google Data Analytics Certificate Course 2 Project** | Jan 2024 - Jan 2024
-- Led the initial stages of the claims classification project, collaborating with a skilled data team.
-- Demonstrated proficiency in completing the Course 2 PACE Strategy Document, Jupyter notebook project file, and delivering an executive summary of important findings.
-
-**Waze - Google Data Analytics Certificate Course 2 Project** | Jan 2024 - Jan 2024
-- Led the initial stages of the churn prevention project, collaborating with a skilled data team.
-- Demonstrated proficiency in completing the Course 2 PACE Strategy Document, Jupyter notebook project file, and delivering an executive summary of important findings.
 
 ---
 
