@@ -28,23 +28,23 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-### Interpersonal Skills
+**Interpersonal Skills**
 
 - Curiosity
 - Adaptability
 - Collaboration
 
-### Data Analysis and Programming
+**Data Analysis and Programming**
 
 - Python Programming for Data Analysis
 - SQL
 
-### Data Visualization
+**Data Visualization**
 
 - Tableau
 - Figma
 
-### Tools and Platforms
+**Tools and Platforms**
 
 - GitHub
 - Microsoft Excel
@@ -52,7 +52,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 - Anaconda
 - Stack Overflow
 
-### Business Intelligence
+**Business Intelligence**
 
 - Business Intelligence Concepts
 - Data Warehousing
@@ -60,7 +60,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 - Dashboard Creation
 - Business Analytics
 
-### Digital Marketing and Analytics
+**Digital Marketing and Analytics**
 
 - Search Engine Optimization 
 - Social Media Marketing
@@ -70,17 +70,17 @@ Join me on this exploration, so together we can create a meaningful impact on th
 - Analytics and Data Insights
 - Google Ads and Analytics
 
-### Data Cleaning and Transformation
+**Data Cleaning and Transformation**
 
 - Data Cleaning and Transformation
 - Data Exploration and Wrangling
 
-### Storytelling and Ethics
+**Storytelling and Ethics**
 
 - Data Storytelling
 - Data Ethics and Privacy
 
-### Machine Learning
+**Machine Learning**
 
 - Machine Learning
 - Deep Learning
