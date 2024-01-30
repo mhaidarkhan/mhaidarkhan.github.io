@@ -1,6 +1,4 @@
-# Welcome!💻
-
-### Hello, 
+# Hello!
 I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
 
 With a strong passion for finding answers, I am dedicated to a lifelong journey of learning and adapting to new challenges. Life, for me, is a continual path of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, my motivation stems from a deep desire to make my family proud.
