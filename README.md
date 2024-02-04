@@ -26,7 +26,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| Interpersonal Skills                | Data Analysis and Programming                  | Data Visualization         |
+| Interpersonal Skills                | Programming Languages                          | Data Visualization         |
 |-------------------------------------|------------------------------------------------|-----------------------------|
 | Curiosity                           | Python Programming for Data Analysis           | Tableau                     |
 | Adaptability                        | SQL                                            | Figma                       |
@@ -36,16 +36,16 @@ Join me on this exploration, so together we can create a meaningful impact on th
 |-------------------------------------|------------------------------------------------|---------------------------------|
 | GitHub                              | Business Intelligence Concepts                 | Search Engine Optimization     |
 | Microsoft Excel                     | Data Warehousing                               | Social Media Marketing         |
-| JupyterLab, Jupyter Notebook         | Data Modeling                                  | Display Advertising            |
+| JupyterLab, Jupyter Notebook        | Data Modeling                                  | Display Advertising            |
 | Anaconda                            | Dashboard Creation                             | Email Marketing                |
-| Stack Overflow                      | Business Analytics                              | Content Marketing              |
+| Stack Overflow                      | Business Analytics                             | Content Marketing              |
 
 | Data Cleaning and Transformation    | Storytelling and Ethics                        | Machine Learning              |
 |-------------------------------------|------------------------------------------------|-------------------------------|
 | Data Cleaning and Transformation    | Data Storytelling                              | Machine Learning              |
 | Data Exploration and Wrangling      | Data Ethics and Privacy                        | Deep Learning                 |
-|                                     |                                                | Feature Engineering            |
-|                                     |                                                | Model Development and Evaluation |
+|                                     |                                               | Feature Engineering            |
+|                                     |                                             | Model Development and Evaluation |
 |                                     |                                                | Deployment of ML Models       |
 
 ---
