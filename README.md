@@ -26,65 +26,27 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-**Interpersonal Skills**
+| Interpersonal Skills                | Data Analysis and Programming                  | Data Visualization         |
+|-------------------------------------|------------------------------------------------|-----------------------------|
+| Curiosity                           | Python Programming for Data Analysis           | Tableau                     |
+| Adaptability                        | SQL                                            | Figma                       |
+| Collaboration                       |                                                |                             |
 
-- Curiosity
-- Adaptability
-- Collaboration
+| Tools and Platforms                 | Business Intelligence                          | Digital Marketing and Analytics |
+|-------------------------------------|------------------------------------------------|---------------------------------|
+| GitHub                              | Business Intelligence Concepts                 | Search Engine Optimization     |
+| Microsoft Excel                     | Data Warehousing                               | Social Media Marketing         |
+| JupyterLab, Jupyter Notebook         | Data Modeling                                  | Display Advertising            |
+| Anaconda                            | Dashboard Creation                             | Email Marketing                |
+| Stack Overflow                      | Business Analytics                              | Content Marketing              |
 
-**Data Analysis and Programming**
-
-- Python Programming for Data Analysis
-- SQL
-
-**Data Visualization**
-
-- Tableau
-- Figma
-
-**Tools and Platforms**
-
-- GitHub
-- Microsoft Excel
-- JupyterLab, Jupyter Notebook
-- Anaconda
-- Stack Overflow
-
-**Business Intelligence**
-
-- Business Intelligence Concepts
-- Data Warehousing
-- Data Modeling
-- Dashboard Creation
-- Business Analytics
-
-**Digital Marketing and Analytics**
-
-- Search Engine Optimization 
-- Social Media Marketing
-- Display Advertising
-- Email Marketing
-- Content Marketing
-- Analytics and Data Insights
-- Google Ads and Analytics
-
-**Data Cleaning and Transformation**
-
-- Data Cleaning and Transformation
-- Data Exploration and Wrangling
-
-**Storytelling and Ethics**
-
-- Data Storytelling
-- Data Ethics and Privacy
-
-**Machine Learning**
-
-- Machine Learning
-- Deep Learning
-- Feature Engineering
-- Model Development and Evaluation
-- Deployment of Machine Learning Models
+| Data Cleaning and Transformation    | Storytelling and Ethics                        | Machine Learning              |
+|-------------------------------------|------------------------------------------------|-------------------------------|
+| Data Cleaning and Transformation    | Data Storytelling                              | Machine Learning              |
+| Data Exploration and Wrangling      | Data Ethics and Privacy                        | Deep Learning                 |
+|                                     |                                                | Feature Engineering            |
+|                                     |                                                | Model Development and Evaluation |
+|                                     |                                                | Deployment of ML Models       |
 
 ---
 
