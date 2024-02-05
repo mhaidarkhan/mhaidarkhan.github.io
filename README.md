@@ -19,8 +19,8 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## EDUCATION
 
-| **Punjab Group of Colleges | 2023 - 25**
-- Intermediate in Computer Science, Mathematics, Statistics |
+| **Punjab Group of Colleges | 2023 - 25** |
+- Intermediate in Computer Science, Mathematics, Statistics
 
 ---
 
