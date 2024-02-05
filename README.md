@@ -9,18 +9,15 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
-### Connect with me:
 
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | Lahore, Pakistan
 
 ---
 
 ## EDUCATION
-- **BSc (Hons) Computer Science**
-  - BeaconHouse National University | 2025 - 29
 
-- **Intermediate in Computer Science, Mathematics, Statistics**
-  - Punjab Group of Colleges | 2023 - 25
+- **Punjab Group of Colleges | 2023 - 25**
+  - Intermediate in Computer Science, Mathematics, Statistics
 
 ---
 
