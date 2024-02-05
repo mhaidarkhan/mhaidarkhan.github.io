@@ -49,13 +49,23 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## PROFESSIONAL CERTIFICATES
 
-**Google Advanced Data Analytics Professional Certificate** | 2023-24
-  - Applied statistical analysis, Python, and machine learning in real-world projects.
-  - Developed effective data communication and problem-solving skills demonstrated in a capstone project.
+**Google Advanced Data Analytics Professional Certificate | 2023-24**
+-	Learned to apply statistical analysis, Python, and machine learning in real-world projects.
+-	Developed effective data communication and problem-solving skills demonstrated in a capstone project.
 
-**Google Business Intelligence Professional Certificate** | 2023-24
-  - Acquired skills in data modeling, data visualization, and dashboarding.
-  - Proficient in BI tools: BigQuery, SQL, Tableau, showcased through practical project experience.
+**Google Business Intelligence Professional Certificate | 2023-24**
+-	Acquired skills in data modeling, data visualization, and dashboarding.
+-	Learned BI tools: BigQuery, SQL, Tableau, showcased through practical project experience.
+
+**IBM Data Science Professional Certificate | 2023-24**
+ - Developed practical skills and knowledge in data science, machine learning, and Python programming.
+ - Learned to apply statistical analysis, Python, and machine learning in real-world projects.
+ - Demonstrated effective data communication and problem-solving skills in a capstone project.
+
+**IBM Data Analyst Professional Certificate | 2023-24**
+ - Gained hands-on experience and skills in data analysis, Python programming, and SQL through Hands-on Labs.
+ - Developed proficiency in using tools like Excel, IBM Cognos Analytics, and Tableau for data visualization.
+ - Completed a capstone project showcasing data analysis and visualization skills.
 
 **Google Digital Marketing & E-commerce Professional Certificate** | 2023-24
   - Gained in-demand skills in digital marketing and e-commerce.
