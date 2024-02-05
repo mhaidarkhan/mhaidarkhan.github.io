@@ -22,6 +22,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 | **Punjab Group of Colleges** | 2023 - 2025 |
 |-----------------------------|--------------|
 | Intermediate in Computer Science, Mathematics, Statistics |
+
 ---
 
 ## SKILLS
