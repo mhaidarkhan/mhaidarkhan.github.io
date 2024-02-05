@@ -9,6 +9,9 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
+| [Click Here to Check out the awesome projects I’ve crafted, just for someone as fantastic as you!](https://mhaidarkhan.github.io/Projects/) |
+
+---
 
 [+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [mhkvlog@gmail.com](mailto:mhkvlog@gmail.com) | [Mandi Bahauddin, Pakistan](https://en.wikipedia.org/wiki/Mandi_Bahauddin)
 
