@@ -28,17 +28,12 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| Interpersonal Skills  | Future Thinking        |
-|-----------------------|------------------------|
-| Curiosity             | Strategic Foresight    |
-| Adaptability          | Future Forecasting     |
-| Collaboration         |                        |
-
-| Programming Languages               | Data Tools & Platforms             | Data Analysis & Visualization |
-|-------------------------------------|------------------------------------|-------------------------------|
-| Python (Data Analysis, Basic ML & Visualization) | GitHub | Data Cleaning and Transformation |
-| SQL | JupyterLab, Jupyter Notebook | Data Visualization and Dashboard Creation |
-|MySQL (phpMyAdmin) |
+| Interpersonal Skills  | Programming Languages, Tools & Platforms | Data Skills           |
+|-----------------------|------------------------------------------|------------------------|
+| Curiosity             | Python Programming for Data Analysis, Basic ML & Visualization | Data Cleaning and Transformation Wrangling using Python and Excel |
+| Adaptability          | SQL                                      | Data Visualization and Dashboard Creation |
+| Collaboration         | MySQL (phpMyAdmin), GitHub, JupyterLab, Jupyter Notebook | Data Storytelling     |
+| Future Thinking       |                                          |                        |
 
 ---
 
