@@ -1,4 +1,5 @@
 # Hello World!
+
 I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
 
 With a strong passion for finding answers, I am dedicated to a lifelong journey of learning and adapting to new challenges. Life, for me, is a continual path of growth and resilience, shaping my commitment to making a positive impact and leaving a lasting legacy. Beyond technical proficiency, my motivation stems from a deep desire to make my family proud.
@@ -9,11 +10,11 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
-| [Click Here to Check out the awesome projects I’ve crafted, just for someone as fantastic as you!](https://mhaidarkhan.github.io/Projects/) |
+[Click Here to Check out the awesome projects I’ve crafted, just for someone as fantastic as you!](https://mhaidarkhan.github.io/Projects/)
 
 ---
 
-[+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/muhammadhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
++92 313 3659896 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/muhammadhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
 
 ---
 
@@ -27,12 +28,20 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| Interpersonal Skills                | Programming Languages                          | Data Tools & Platforms         | Business Intelligence | Data Analysis & Visualization | Future Thinking |
-|-------------------------------------|------------------------------------------------|---------------------------------|----------------------|-------------------------------|-----------------|
-| Curiosity                           | Python (Data Analysis, Basic ML & Visualization) | GitHub                          | SQL                  | Data Cleaning and Transformation | Strategic Foresight |
-| Adaptability                        | SQL                                            | JupyterLab, Jupyter Notebook    | MySQL (phpMyAdmin)  | Data Visualization and Dashboard Creation | Future Forecasting |
-| Collaboration                       |                                                |                                 |                      | Data Storytelling             |                |
-| Future Thinking                     |                                                |                                 |                      |                               |                |
+**Technical Skills**
+
+| Programming Languages                | Data Tools & Platforms             | Business Intelligence          | Data Analysis & Visualization |
+|-------------------------------------|------------------------------------|--------------------------------|-------------------------------|
+| Python (Data Analysis, Basic ML & Visualization) | GitHub                          | SQL                            | Data Cleaning and Transformation |
+| SQL                                 | JupyterLab, Jupyter Notebook      | MySQL (phpMyAdmin)             | Data Visualization and Dashboard Creation |
+
+**Interpersonal Skills**
+
+| Interpersonal Skills  | Future Thinking        |
+|-----------------------|------------------------|
+| Curiosity             | Strategic Foresight    |
+| Adaptability          | Future Forecasting     |
+| Collaboration         |                        |
 
 ---
 
