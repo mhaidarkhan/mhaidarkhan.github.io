@@ -19,7 +19,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## EDUCATION
 
-| **Punjab Group of Colleges** | 2023 - 2025 |
+| **Punjab Group of Colleges** | 2023 - 25 |
 |-----------------------------|--------------|
 | Intermediate in Computer Science, Mathematics, Statistics |
 
@@ -27,69 +27,65 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| Interpersonal Skills                | Programming Languages                          | Data Visualization         |
-|-------------------------------------|------------------------------------------------|-----------------------------|
-| Curiosity                           | Python Programming for Data Analysis           | Tableau                     |
-| Adaptability                        | SQL                                            | Figma                       |
-| Collaboration                       |                                                |                             |
-
-| Tools and Platforms                 | Business Intelligence                          | Digital Marketing and Analytics |
-|-------------------------------------|------------------------------------------------|---------------------------------|
-| GitHub                              | Business Intelligence Concepts                 | Search Engine Optimization     |
-| Microsoft Excel                     | Data Warehousing                               | Social Media Marketing         |
-| JupyterLab, Jupyter Notebook        | Data Modeling                                  | Display Advertising            |
-| Anaconda                            | Dashboard Creation                             | Email Marketing                |
-| Stack Overflow                      | Business Analytics                             | Content Marketing              |
-
-| Data Cleaning and Transformation    | Storytelling and Ethics                        | Machine Learning              |
-|-------------------------------------|------------------------------------------------|-------------------------------|
-| Data Cleaning and Transformation    | Data Storytelling                              | Machine Learning              |
-| Data Exploration and Wrangling      | Data Ethics and Privacy                        | Deep Learning                 |
-|                                     |                                               | Feature Engineering            |
-|                                     |                                             | Model Development and Evaluation |
-|                                     |                                                | Deployment of ML Models       |
+| Interpersonal Skills                | Programming Languages                          | Data Tools & Platforms         | Business Intelligence | Data Analysis & Visualization | Future Thinking |
+|-------------------------------------|------------------------------------------------|---------------------------------|----------------------|-------------------------------|-----------------|
+| Curiosity                           | Python (Data Analysis, Basic ML & Visualization) | GitHub                          | SQL                  | Data Cleaning and Transformation | Strategic Foresight |
+| Adaptability                        | SQL                                            | JupyterLab, Jupyter Notebook    | MySQL (phpMyAdmin)  | Data Visualization and Dashboard Creation | Future Forecasting |
+| Collaboration                       |                                                |                                 |                      | Data Storytelling             |                |
+| Future Thinking                     |                                                |                                 |                      |                               |                |
 
 ---
 
 ## PROFESSIONAL CERTIFICATES
 
-| **Google Advanced Data Analytics Professional Certificate** | 2023-24 |
-|---------------------------------------------------------|---------|
-| Applied statistical analysis, Python, and machine learning in real-world projects. |
-| Developed effective data communication and problem-solving skills in a capstone project. |
-
-| **Google Business Intelligence Professional Certificate** | 2023-24 |
-|---------------------------------------------------------|---------|
-| Acquired skills in data modeling, data visualization, and dashboarding. |
-| Demonstrated proficiency in BI tools: BigQuery, SQL, Tableau through practical projects. |
-
 | **IBM Data Science Professional Certificate** | 2023-24 |
 |----------------------------------------------|---------|
-| Developed practical skills in data science, machine learning, and Python programming. |
+| Developed practical skills and knowledge in data science, machine learning, and Python programming. |
 | Applied statistical analysis, Python, and machine learning in real-world projects. |
 | Demonstrated effective data communication and problem-solving skills in a capstone project. |
 
 | **IBM Data Analyst Professional Certificate** | 2023-24 |
 |----------------------------------------------|---------|
-| Gained hands-on experience in data analysis, Python programming, and SQL through Hands-on Labs. |
-| Proficient in using tools like Excel, IBM Cognos Analytics, and Tableau for data visualization. |
+| Gained hands-on experience and skills in data analysis, Python programming, and SQL through Hands-on Labs. |
+| Developed proficiency in using tools like Excel, IBM Cognos Analytics, and Tableau for data visualization. |
 | Completed a capstone project showcasing data analysis and visualization skills. |
-
-| **Google Digital Marketing & E-commerce Professional Certificate** | 2023-24 |
-|-----------------------------------------------------------------|---------|
-| Gained in-demand skills in digital marketing and e-commerce. |
-| Proficient in platforms like Canva, Google Ads, and Shopify, demonstrated through practical assessments. |
 
 ---
 
 ## SPECIALIZATIONS
 
-| **University of Illinois at Urbana-Champaign Strategic Leadership and Management Specialization** | 2023-24 |
+| **Institute for the Future - Futures Thinking Specialization** | 2024-25 |
+|---------------------------------------------------------------|---------|
+| Learned to use Institute for the Future’s powerful foresight tools. |
+| Gained insight into the most important new technologies, global events, and big ideas shaping the future. |
+| Enabled to spot new opportunities for innovation and invention. |
+| Developed a more creative and optimistic mindset about the possibilities for the future. |
+
+| **University of Illinois at Urbana-Champaign Strategic Leadership and Management Specialization** | 2024-25 |
 |--------------------------------------------------------------------------------------------------|---------|
-| Developed practical strategies for effective organizational leadership. |
+| Learned to develop practical strategies for effective organizational leadership. |
 | Mastered skills in strategic management, negotiation, and business strategy. |
 | Applied skills in strategic management, negotiation, and business strategy through a capstone project. |
 
+| **Udemy - 100 Days of Code: The Complete Python Pro Bootcamp** | 2024-25 |
+|---------------------------------------------------------------|---------|
+| Developed a portfolio of 100 Python projects showcasing diverse skills in web development, data analysis, and GUI desktop app development. |
+| Received instruction from Dr. Angela Yu, lead instructor at the London App Brewery, known for high-quality teaching and successful student outcomes. |
+| Acquired practical experience with tools like PyCharm, Jupyter Notebook, Flask, SQL, Git, HTML, and CSS. |
+| Demonstrated commitment to continuous learning and skill enhancement through completion of rigorous course curriculum. |
+| Able to apply Python programming expertise effectively in various professional contexts. |
+
 ---
 
-**Last updated:** January 18, 2024
+## COURSES
+
+- Entrepreneurship 1: Developing the Opportunity - University of Pennsylvania
+- Foundations of Data Science – Google
+- Foundations of Digital Marketing and E-commerce - Google
+- Attract and Engage Customers with Digital Marketing - Google
+- From Likes to Leads: Interact with Customers Online – Google
+- Introduction to Front-End Development - Meta
+
+---
+
+**Last updated:** February 18, 2024
