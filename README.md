@@ -13,7 +13,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
-[+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/muhammadhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com) | [Mandi Bahauddin, Pakistan](https://en.wikipedia.org/wiki/Mandi_Bahauddin)
+[+92 313 3659896](tel:+923133659896) | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/muhammadhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
 
 ---
 
