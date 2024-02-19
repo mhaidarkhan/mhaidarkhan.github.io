@@ -28,12 +28,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| Interpersonal Skills  | Programming Languages, Tools & Platforms | Data Skills           |
-|-----------------------|------------------------------------------|------------------------|
-| Curiosity             | Python Programming for Data Analysis, Basic ML & Visualization | Data Cleaning and Transformation Wrangling using Python and Excel |
-| Adaptability          | SQL                                      | Data Visualization and Dashboard Creation |
-| Collaboration         | MySQL (phpMyAdmin), GitHub, JupyterLab, Jupyter Notebook | Data Storytelling     |
-| Future Thinking       |                                          |                        |
+**Interpersonal Skills:** Curiosity, Adaptability, Collaboration, Future Thinking | **Programming languages:** Python, Rust, SQL  |  **ML/AI:** Numpy, Pandas, Matplotlib, Scikit | **Miscellaneous:** MySQL (phpMyAdmin), GitHub, Data Analysis, Data Visualization and Dashboard Creation, JupyterLab, Jupyter Notebook, Data Cleaning and Transformation Wrangling using Python and Excel, Data Storytelling
 
 ---
 
