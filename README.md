@@ -1,7 +1,3 @@
-<!-- 
-<meta name="google-site-verification" content="GMvHC8Ac_klsrtsk7STIeWVCPZRyJEwonym408amJ4c">
--->
-
 # Hello World!
 
 I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
