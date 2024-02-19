@@ -50,10 +50,10 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ## SKILLS
 
-| **Interpersonal Skills:** Curiosity, Adaptability, Collaboration, Future Thinking | 
-| **Programming languages:** Python, Rust, SQL | 
-| **ML/AI:** Numpy, Pandas, Matplotlib, Scikit |
-| **Miscellaneous:** MySQL (phpMyAdmin), GitHub, Data Analysis, Data Visualization and Dashboard Creation, JupyterLab, Jupyter Notebook, Data Cleaning and Transformation Wrangling using Python and Excel, Data Storytelling |
+| **Interpersonal Skills:** Curiosity, Adaptability, Collaboration, Future Thinking | <br>
+| **Programming languages:** Python, Rust, SQL | <br>
+| **ML/AI:** Numpy, Pandas, Matplotlib, Scikit | <br>
+| **Miscellaneous:** MySQL (phpMyAdmin), GitHub, Data Analysis, Data Visualization and Dashboard Creation, JupyterLab, Jupyter Notebook, Data Cleaning and Transformation Wrangling using Python and Excel, Data Storytelling | <br>
 
 ---
 
