@@ -6,7 +6,7 @@
     "@type": "ListItem", 
     "position": 1, 
     "name": "GitHub",
-    "item": "https://github.com/muhammadhaidarkhan"  
+    "item": "https://github.com/mhaidarkhan"  
   },{
     "@type": "ListItem", 
     "position": 2, 
@@ -36,7 +36,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
-+92 313 3659896 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/muhammadhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
++92 313 3659896 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
 
 ---
 
