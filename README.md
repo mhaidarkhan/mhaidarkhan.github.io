@@ -1,3 +1,25 @@
+<!-- Add the schema markup in meta tags -->
+<meta type="application/ld+json" content='{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "GitHub",
+    "item": "https://github.com/muhammadhaidarkhan"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Linkedin",
+    "item": "https://www.linkedin.com/in/haidarkhan/"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Projects",
+    "item": "https://mhaidarkhan.github.io/Projects/"  
+  }]
+}'>
+
 # Hello World!
 
 I'm Muhammad Haidar Khan, born on September 1, 2004, in Mandi Bahauddin, Punjab, Pakistan. Since a young age, my journey has been fueled by curiosity and a quest for purpose.
