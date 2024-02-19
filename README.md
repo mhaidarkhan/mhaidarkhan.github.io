@@ -10,7 +10,7 @@ Join me on this exploration, so together we can create a meaningful impact on th
 
 ---
 
-[Click Here to Check out the awesome projects I’ve crafted, just for someone as fantastic as you!](https://mhaidarkhan.github.io/Projects/)
+| [Click Here to Check out the awesome projects I’ve crafted, just for someone as fantastic as you!](https://mhaidarkhan.github.io/Projects/) |
 
 ---
 
