@@ -41,8 +41,8 @@ But beyond personal growth, I want to make a real impact. Of course, making my f
 
 **Education**
 
-* **Punjab Group of Colleges** | 2023 - Present
-    * Intermediate in Computer Science, Mathematics, Statistics
+**Punjab Group of Colleges** | 2023 - Present
+* Intermediate in Computer Science, Mathematics, Statistics
 
 **Books**
 
