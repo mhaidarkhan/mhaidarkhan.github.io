@@ -34,7 +34,7 @@ But beyond personal growth, I want to make a real impact. Of course, making my f
 
 ---
 
-+92 313 3659896 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [GitHub](https://github.com/mhaidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com)
+| [LinkedIn](https://www.linkedin.com/in/haidarkhan) | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com) |
 
 ---
 
