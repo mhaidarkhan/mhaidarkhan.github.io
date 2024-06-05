@@ -30,7 +30,7 @@ But beyond personal growth, I want to make a real impact. Of course, making my f
 
 ---
 
-| [Click Here to Check out my books written by me, just for someone as fantastic as you!](https://mhaidarkhan.github.io/books/) |
+| [Curious About the World? Check Out My Books!](https://mhaidarkhan.github.io/books/) |
 
 ---
 
