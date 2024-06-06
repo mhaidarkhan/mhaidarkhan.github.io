@@ -38,19 +38,3 @@ But beyond personal growth, I want to make a real impact. Of course, making my f
 
 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) |
 | [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com) |
-
-**Education**
-
-**Punjab Group of Colleges** | 2023 - Present
-* Intermediate in Computer Science, Mathematics, Statistics
-
-**Books**
-
-* **The Philosophy Blueprint (2024)**
-    * Explore the fundamentals of philosophy.
-    * Learn methods to question and discover answers.
-    * Delve into the nature of knowledge and reality.
-    * Meet influential Muslim philosophers and contemporary schools.
-    * And Much More!  [Click Here to Read](https://mhaidarkhan.github.io/)
-
-**Last Updated:** June 5, 2024
