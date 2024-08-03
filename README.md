@@ -37,4 +37,3 @@ But beyond personal growth, I want to make a real impact. Of course, making my f
 **Connect with Me**
 
 | [LinkedIn](https://www.linkedin.com/in/haidarkhan) |
-| [khanmuhammadhaidar@gmail.com](mailto:khanmuhammadhaidar@gmail.com) |
