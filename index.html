@@ -7,12 +7,12 @@
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="assets/js/main.js" defer></script>
 </head>
 
 <body data-theme="light">
 
-  <!-- overlay + scroll -->
   <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
   <div class="cursor-highlight" id="cursorHighlight" aria-hidden="true"></div>
@@ -68,17 +68,17 @@
     <section class="wrap services-section">
       <h2 class="section-title">Services — what I do</h2>
       <div class="service-grid">
-        <article class="card service-card">
+        <article class="card service-card reveal-up">
           <h3>Brand Strategy</h3>
           <p>Define voice, positioning and customer journeys grounded in empathy.</p>
         </article>
 
-        <article class="card service-card">
+        <article class="card service-card reveal-up delay-1">
           <h3>Content Marketing</h3>
           <p>Emotion-first content that converts attention into trust and action.</p>
         </article>
 
-        <article class="card service-card">
+        <article class="card service-card reveal-up delay-2">
           <h3>Social Growth</h3>
           <p>Creative sequencing and paid tactics that scale sustainably.</p>
         </article>
@@ -124,7 +124,7 @@
       </div>
     </section>
 
-    <!-- BOOKS SECTION -->
+    <!-- BOOKS -->
     <section class="wrap books-section">
       <h2 class="section-title">Books — thought leadership</h2>
       <div class="book-card reveal">
@@ -165,5 +165,16 @@
     </div>
   </footer>
 
+  <script>
+    // Animate service cards on scroll
+    ScrollReveal().reveal('.reveal-up', {
+      distance: '60px',
+      origin: 'bottom',
+      opacity: 0,
+      duration: 900,
+      easing: 'ease-out',
+      interval: 200
+    });
+  </script>
 </body>
 </html>
