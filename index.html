@@ -1,131 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Muhammad Haidar Khan — Marketing with Heart</title>
-  <meta name="description" content="Marketing with Heart — Emotion-led, customer-first growth for startups and e-commerce." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Haidar Khan</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="icon" href="assets/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
-<body>
-  <!-- Page transition overlay -->
-<div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+<body data-theme="light">
 
-<!-- Scroll to top -->
-<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
-<!-- example hero-right -->
-<aside class="hero-right">
-  <div class="portrait-frame" data-parallax>
-    <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy" />
-  </div>
-</aside>
+  <!-- Page transition overlay -->
+  <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="/index.html">haidar</a>
+      <a class="logo" href="index.html">Haidar</a>
 
       <nav class="nav">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/services.html">Services</a>
-        <a href="/work.html">Work</a>
-        <a href="/contact.html" class="cta">Contact</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
 
-      <div class="header-right">
-        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
-          <span id="themeIcon">☀️</span>
-        </button>
-        <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
-      </div>
+      <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀️</button>
     </div>
   </header>
 
-  <main id="home">
+  <main>
     <section class="hero wrap">
       <div class="hero-left">
-        <p class="eyebrow">Muhammad Haidar Khan</p>
-        <h1>Marketing with Heart — Emotion-led, Customer-first Growth.</h1>
-        <p class="lead">I help startups and e-commerce brands grow profitably by combining empathetic storytelling with rigorous, data-driven funnels. Market with love; scale with confidence.</p>
-
+        <h1>Marketing with love, emotion, and purpose — building customer-first brands that last.</h1>
+        <p class="lead">
+          I craft marketing that feels human — combining empathy, data, and design to grow brands that people truly connect with.
+        </p>
         <div class="hero-actions">
-          <a href="/contact.html" class="btn-primary">Work with me</a>
-          <a href="/work.html" class="btn-ghost">See case studies</a>
+          <a href="#contact" class="btn-primary">Work with me</a>
+          <a href="about.html" class="btn-ghost">Learn more</a>
         </div>
-
-        <div class="funnel card">
-          <h3>My story funnel</h3>
-          <ol>
-            <li><strong>Listen</strong> — deep discovery to understand customers' needs & emotions</li>
-            <li><strong>Craft</strong> — emotion-first creative married to conversion science</li>
-            <li><strong>Measure & Scale</strong> — test, iterate and scale what moves revenue</li>
-          </ol>
-        </div>
-
-        <ul class="quick-stats">
-          <li><strong>Emotion-led</strong><span>Creative frameworks</span></li>
-          <li><strong>Data-backed</strong><span>Analytics & A/B tests</span></li>
-          <li><strong>Customer-first</strong><span>Retention focus</span></li>
-        </ul>
       </div>
 
-      <aside class="hero-right">
-        <!-- Put your image at assets/images/haidar.jpg -->
-        <div class="portrait-frame">
-          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" />
+      <div class="hero-right">
+        <div class="portrait-frame" data-parallax>
+          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy" />
         </div>
-      </aside>
-    </section>
-
-    <section id="highlights" class="wrap highlights">
-      <div class="cards">
-        <article class="card">
-          <h4>Human-first campaigns</h4>
-          <p>Create messages that resonate — not just click — and keep customers returning.</p>
-        </article>
-        <article class="card">
-          <h4>Analytics & funnels</h4>
-          <p>GA4, GTM, funnel analysis and A/B testing to ensure every campaign improves ROI.</p>
-        </article>
-        <article class="card">
-          <h4>Growth mindset</h4>
-          <p>Small tests, fast learnings, and scaling winners to reliably grow revenue.</p>
-        </article>
       </div>
     </section>
 
-    <section id="work-preview" class="wrap work-preview">
-      <h2>Selected case studies</h2>
-      <div class="case-list">
-        <article class="case">
-          <img src="assets/images/case1.jpg" alt="Case study screenshot">
-          <div class="case-body">
-            <h3>Paid social scaling — SaaS</h3>
-            <p>Emotion-led creatives + lookalike audiences produced a 3.8x increase in trial signups.</p>
-            <a href="/work.html" class="case-link">Read more →</a>
-          </div>
-        </article>
-
-        <article class="case">
-          <img src="assets/images/case2.jpg" alt="Case study screenshot">
-          <div class="case-body">
-            <h3>Checkout conversion lift — e-commerce</h3>
-            <p>Checkout UX redesign and tailored retargeting increased checkout CVR by 18%.</p>
-            <a href="/work.html" class="case-link">Read more →</a>
-          </div>
-        </article>
+    <section class="services wrap">
+      <h2>What I Do</h2>
+      <div class="service-grid">
+        <div class="card">
+          <h3>Brand Strategy</h3>
+          <p>Building authentic brand voices rooted in emotion, purpose, and connection.</p>
+        </div>
+        <div class="card">
+          <h3>Content Marketing</h3>
+          <p>Creating impactful stories that turn attention into trust and growth.</p>
+        </div>
+        <div class="card">
+          <h3>Social Media Growth</h3>
+          <p>Helping brands inspire audiences through strategy, creativity, and rhythm.</p>
+        </div>
       </div>
     </section>
 
+    <section class="story wrap">
+      <h2>The Story Funnel</h2>
+      <ol>
+        <li><strong>Listen:</strong> Understand your brand story and your audience’s emotions.</li>
+        <li><strong>Craft:</strong> Create campaigns that connect on a human level.</li>
+        <li><strong>Grow:</strong> Optimize and scale what resonates authentically.</li>
+      </ol>
+    </section>
+
+    <section id="contact" class="contact wrap">
+      <h2>Let’s Build Something Meaningful</h2>
+      <p class="lead">Share your vision — I’ll reply personally.</p>
+
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnnggvnq" method="POST">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="_replyto" required>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>© <span id="year"></span> Muhammad Haidar Khan — Marketing with Heart</div>
-      <div class="no-social">Trusted, client-first marketing</div>
+      <span>© 2025 Muhammad Haidar Khan</span>
+      <span>Made with passion & purpose.</span>
     </div>
   </footer>
 
