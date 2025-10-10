@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>haidar — Digital Marketing Portfolio</title>
-  <meta name="description" content="haidar — Digital marketer. Case studies in growth, paid social, SEO, content & analytics." />
+  <title>Muhammad Haidar Khan — Marketing with Heart</title>
+  <meta name="description" content="Marketing with Heart — Emotion-led, customer-first growth for startups and e-commerce." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -13,136 +13,107 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="#home">haidar</a>
+      <a class="logo" href="/index.html">haidar</a>
+
       <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact" class="cta">Contact</a>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/work.html">Work</a>
+        <a href="/contact.html" class="cta">Contact</a>
       </nav>
-      <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+
+      <div class="header-right">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
     </div>
   </header>
 
   <main id="home">
     <section class="hero wrap">
       <div class="hero-left">
-        <h1>Growth-focused digital marketing for SaaS & e-commerce</h1>
-        <p>I'm Haidar — I combine paid acquisition, conversion optimization and analytics to scale consistent revenue.</p>
+        <p class="eyebrow">Muhammad Haidar Khan</p>
+        <h1>Marketing with Heart — Emotion-led, Customer-first Growth.</h1>
+        <p class="lead">I help startups and e-commerce brands grow profitably by combining empathetic storytelling with rigorous, data-driven funnels. Market with love; scale with confidence.</p>
+
         <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Work with me</a>
-          <a href="#work" class="btn-ghost">See case studies</a>
+          <a href="/contact.html" class="btn-primary">Work with me</a>
+          <a href="/work.html" class="btn-ghost">See case studies</a>
         </div>
-        <ul class="quick-stats" aria-hidden="true">
-          <li><strong>+3x</strong><span>avg. ROAS</span></li>
-          <li><strong>700k+</strong><span>users reached</span></li>
-          <li><strong>35%</strong><span>Avg. CVR increase</span></li>
+
+        <div class="funnel card">
+          <h3>My story funnel</h3>
+          <ol>
+            <li><strong>Listen</strong> — deep discovery to understand customers' needs & emotions</li>
+            <li><strong>Craft</strong> — emotion-first creative married to conversion science</li>
+            <li><strong>Measure & Scale</strong> — test, iterate and scale what moves revenue</li>
+          </ol>
+        </div>
+
+        <ul class="quick-stats">
+          <li><strong>Emotion-led</strong><span>Creative frameworks</span></li>
+          <li><strong>Data-backed</strong><span>Analytics & A/B tests</span></li>
+          <li><strong>Customer-first</strong><span>Retention focus</span></li>
         </ul>
       </div>
-      <div class="hero-right" aria-hidden="true">
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="" />
-      </div>
+
+      <aside class="hero-right">
+        <!-- Put your image at assets/images/haidar.jpg -->
+        <div class="portrait-frame">
+          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" />
+        </div>
+      </aside>
     </section>
 
-    <section id="about" class="wrap about">
-      <h2>About</h2>
-      <p>I'm a digital marketer focused on data-driven strategies: paid media (Facebook/Google), SEO, content marketing and CRO. I build experiments, analyze user funnels and scale campaigns that move the needle.</p>
-      <div class="skills-grid">
-        <div><strong>Paid Media</strong><span>Strategy, management, creative tests</span></div>
-        <div><strong>Analytics</strong><span>GA4, GTM, attribution</span></div>
-        <div><strong>CRO</strong><span>A/B testing, landing pages</span></div>
-        <div><strong>Content</strong><span>SEO, copywriting & UX</span></div>
-      </div>
-    </section>
-
-    <section id="services" class="wrap services">
-      <h2>Services</h2>
+    <section id="highlights" class="wrap highlights">
       <div class="cards">
         <article class="card">
-          <h3>Paid Acquisition</h3>
-          <p>Performance-driven campaigns with clear KPIs (CAC, ROAS, LTV-driven tactics).</p>
+          <h4>Human-first campaigns</h4>
+          <p>Create messages that resonate — not just click — and keep customers returning.</p>
         </article>
         <article class="card">
-          <h3>Growth Analytics</h3>
-          <p>Implementing GA4, GTM and dashboards to measure revenue impact and tests.</p>
+          <h4>Analytics & funnels</h4>
+          <p>GA4, GTM, funnel analysis and A/B testing to ensure every campaign improves ROI.</p>
         </article>
         <article class="card">
-          <h3>Conversion Optimization</h3>
-          <p>Landing page audits, A/B tests and CRO roadmaps that improve conversion rates.</p>
+          <h4>Growth mindset</h4>
+          <p>Small tests, fast learnings, and scaling winners to reliably grow revenue.</p>
         </article>
       </div>
     </section>
 
-    <section id="work" class="wrap work">
-      <h2>Selected Case Studies</h2>
-
+    <section id="work-preview" class="wrap work-preview">
+      <h2>Selected case studies</h2>
       <div class="case-list">
         <article class="case">
-          <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Campaign dashboard screenshot" />
+          <img src="assets/images/case1.jpg" alt="Case study screenshot">
           <div class="case-body">
-            <h3>Paid Social Scale — SaaS</h3>
-            <p>Scaled trial signups by 4x while reducing CAC 28%. Tactics: creative variants, lookalike funnels & lifecycle email flows.</p>
-            <a class="case-link" href="#">Read summary →</a>
+            <h3>Paid social scaling — SaaS</h3>
+            <p>Emotion-led creatives + lookalike audiences produced a 3.8x increase in trial signups.</p>
+            <a href="/work.html" class="case-link">Read more →</a>
           </div>
         </article>
 
         <article class="case">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&s=placeholder" alt="Analytics dashboard" />
+          <img src="assets/images/case2.jpg" alt="Case study screenshot">
           <div class="case-body">
-            <h3>Conversion Lift — e-commerce</h3>
-            <p>Improved checkout conversion +18% via checkout redesign, GA event tracking & targeted retargeting sequences.</p>
-            <a class="case-link" href="#">Read summary →</a>
+            <h3>Checkout conversion lift — e-commerce</h3>
+            <p>Checkout UX redesign and tailored retargeting increased checkout CVR by 18%.</p>
+            <a href="/work.html" class="case-link">Read more →</a>
           </div>
         </article>
       </div>
-    </section>
-
-    <section id="testimonials" class="wrap testimonials">
-      <h2>What clients say</h2>
-      <blockquote>
-        <p>“Haidar transformed our ad strategy — doubled ROI in 3 months.”</p>
-        <footer>— Product Lead, Example SaaS</footer>
-      </blockquote>
-    </section>
-
-    <section id="contact" class="wrap contact">
-      <h2>Let's work together</h2>
-      <p>Available for retained and project work. Tell me about your goals.</p>
-
-      <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" required />
-        </label>
-
-        <label>
-          <span>Email</span>
-          <input type="email" name="email" required />
-        </label>
-
-        <label>
-          <span>Project details</span>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-
-        <div class="form-actions">
-          <button type="submit" class="btn-primary">Send message</button>
-          <a href="mailto:haidar@example.com" class="btn-ghost">Email directly</a>
-        </div>
-      </form>
     </section>
 
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>© <span id="year"></span> haidar — digital marketing</div>
-      <div class="social">
-        <a href="#" aria-label="Twitter">Twitter</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-        <a href="#" aria-label="GitHub">GitHub</a>
-      </div>
+      <div>© <span id="year"></span> Muhammad Haidar Khan — Marketing with Heart</div>
+      <div class="no-social">Trusted, client-first marketing</div>
     </div>
   </footer>
 
