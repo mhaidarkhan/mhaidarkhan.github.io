@@ -1,106 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Muhammad Haidar Khan</title>
   <link rel="icon" href="assets/favicon.png" type="image/png">
-  <link rel="stylesheet" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-theme="light">
 
-  <!-- Page transition overlay -->
+  <!-- overlay + scroll to top -->
   <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <div class="cursor-highlight" id="cursor"></div>
 
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html">Haidar</a>
-
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="#contact">Contact</a>
       </nav>
 
-      <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀️</button>
+      <div class="header-right">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
     </div>
   </header>
 
   <main>
+    <!-- HERO -->
     <section class="hero wrap">
-      <div class="hero-left">
-        <h1>Marketing with love, emotion, and purpose — building customer-first brands that last.</h1>
-        <p class="lead">
-          I craft marketing that feels human — combining empathy, data, and design to grow brands that people truly connect with.
-        </p>
+      <div class="hero-left reveal" data-reveal-delay="0.08">
+        <p class="eyebrow">Muhammad Haidar Khan</p>
+        <h1 class="hero-title">Marketing with love, emotion, and purpose — building customer-first brands that last.</h1>
+        <p class="lead">I craft empathetic marketing: human-led storytelling, rigorous funnels and conversion-focused creative that builds trust and revenue.</p>
+
         <div class="hero-actions">
           <a href="#contact" class="btn-primary">Work with me</a>
           <a href="about.html" class="btn-ghost">Learn more</a>
         </div>
-      </div>
 
-      <div class="hero-right">
-        <div class="portrait-frame" data-parallax>
-          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy" />
+        <div class="hero-meta">
+          <div class="meta-item"><strong>Empathy</strong><span>Human-first strategy</span></div>
+          <div class="meta-item"><strong>Data</strong><span>Analytics & testing</span></div>
+          <div class="meta-item"><strong>Craft</strong><span>Story-led creative</span></div>
         </div>
       </div>
+
+      <aside class="hero-right reveal" data-reveal-delay="0.18">
+        <div class="portrait-frame" data-parallax data-parallax-speed="0.14">
+          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy">
+          <div class="portrait-glow"></div>
+        </div>
+      </aside>
     </section>
 
+    <!-- SERVICES -->
     <section class="services wrap">
-      <h2>What I Do</h2>
+      <h2 class="section-title reveal" data-reveal-delay="0.24">What I do</h2>
       <div class="service-grid">
-        <div class="card">
+        <article class="card service-card reveal" data-reveal-delay="0.28">
           <h3>Brand Strategy</h3>
-          <p>Building authentic brand voices rooted in emotion, purpose, and connection.</p>
-        </div>
-        <div class="card">
+          <p>Define voice and positioning that emotionally connects and outlasts performance windows.</p>
+        </article>
+
+        <article class="card service-card reveal" data-reveal-delay="0.34">
           <h3>Content Marketing</h3>
-          <p>Creating impactful stories that turn attention into trust and growth.</p>
-        </div>
-        <div class="card">
-          <h3>Social Media Growth</h3>
-          <p>Helping brands inspire audiences through strategy, creativity, and rhythm.</p>
-        </div>
+          <p>Story-first content that builds credibility, SEO momentum and customer affinity.</p>
+        </article>
+
+        <article class="card service-card reveal" data-reveal-delay="0.40">
+          <h3>Social Growth</h3>
+          <p>Creative-led paid and organic flows that translate attention into retention.</p>
+        </article>
       </div>
     </section>
 
-    <section class="story wrap">
-      <h2>The Story Funnel</h2>
-      <ol>
-        <li><strong>Listen:</strong> Understand your brand story and your audience’s emotions.</li>
-        <li><strong>Craft:</strong> Create campaigns that connect on a human level.</li>
-        <li><strong>Grow:</strong> Optimize and scale what resonates authentically.</li>
-      </ol>
+    <!-- INTERACTIVE STORY FUNNEL -->
+    <section class="funnel-wrap wrap">
+      <h2 class="section-title reveal" data-reveal-delay="0.46">The Story Funnel</h2>
+
+      <div class="funnel reveal" data-reveal-delay="0.52" id="storyFunnel" aria-hidden="false">
+        <div class="funnel-line" aria-hidden="true"><span class="pulse"></span></div>
+
+        <button class="funnel-step" data-step="1" aria-expanded="false" tabindex="0">
+          <div class="step-index">1</div>
+          <div class="step-body">
+            <h4>Listen</h4>
+            <p class="short">Discovery: learn customer pains and dreams.</p>
+            <div class="step-more" aria-hidden="true">
+              <p>Deep interviews, funnel audits, and empathy mapping to find the emotional triggers your customers respond to.</p>
+            </div>
+          </div>
+        </button>
+
+        <button class="funnel-step" data-step="2" aria-expanded="false" tabindex="0">
+          <div class="step-index">2</div>
+          <div class="step-body">
+            <h4>Craft</h4>
+            <p class="short">Emotion-led creative & funnel design.</p>
+            <div class="step-more" aria-hidden="true">
+              <p>Creative frameworks, landing experiences and messages tailored to resonate across the funnel.</p>
+            </div>
+          </div>
+        </button>
+
+        <button class="funnel-step" data-step="3" aria-expanded="false" tabindex="0">
+          <div class="step-index">3</div>
+          <div class="step-body">
+            <h4>Grow</h4>
+            <p class="short">Test, optimize, and scale sustainably.</p>
+            <div class="step-more" aria-hidden="true">
+              <p>Iterative A/B tests, attribution clarity and scaling the channels that build long-term value.</p>
+            </div>
+          </div>
+        </button>
+      </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="contact wrap">
-      <h2>Let’s Build Something Meaningful</h2>
-      <p class="lead">Share your vision — I’ll reply personally.</p>
+      <h2 class="section-title reveal" data-reveal-delay="0.6">Let’s Build Something Meaningful</h2>
+      <p class="lead reveal" data-reveal-delay="0.64">Tell me about your goals — I reply personally.</p>
 
-      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnnggvnq" method="POST">
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" required>
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="email" name="_replyto" required>
-        </label>
-        <label>
-          <span>Message</span>
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button type="submit" class="btn-primary">Send Message</button>
+      <form id="contactForm" class="contact-form reveal" data-reveal-delay="0.68" action="https://formspree.io/f/xnnggvnq" method="POST">
+        <label><span>Name</span><input type="text" name="name" required></label>
+        <label><span>Email</span><input type="email" name="_replyto" required></label>
+        <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Send Message</button>
+          <a class="btn-ghost" href="mailto:mhkvlog@gmail.com">Email directly</a>
+        </div>
       </form>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <span>© 2025 Muhammad Haidar Khan</span>
-      <span>Made with passion & purpose.</span>
+      <div>© <span id="year"></span> Muhammad Haidar Khan</div>
+      <div class="footer-note">Marketing with heart & integrity.</div>
     </div>
   </footer>
 
