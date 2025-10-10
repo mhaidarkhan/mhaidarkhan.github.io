@@ -414,3 +414,42 @@ h1,h2,h3,h4 {
 [data-theme="dark"] .pulse {
   background: var(--accent);
 }
+/* Services Section Enhancements */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background: var(--card-bg, rgba(255,255,255,0.05));
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 1.2rem;
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  border-color: var(--accent, #ffd27f);
+}
+
+.service-card h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+[data-theme="dark"] .service-card {
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.9);
+}
+
+[data-theme="dark"] .service-card:hover {
+  box-shadow: 0 0 12px rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.08);
+}
