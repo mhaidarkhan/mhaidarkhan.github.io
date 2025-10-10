@@ -1,3 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Muhammad Haidar Khan</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body data-theme="light">
+  <!-- overlay + scroll -->
+  <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <div class="cursor-highlight" id="cursorHighlight3" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Haidar</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="header-right">
+        <button id="themeToggle3" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="wrap contact-section">
+      <div class="contact-header reveal-up">
+        <h1>Let’s Build Something Great</h1>
+        <p class="lead">Tell me about your goals, challenges, or upcoming project — I’ll get back to you personally.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info reveal-scale">
+          <h3>Let’s Connect</h3>
+          <p>If you prefer direct contact, reach me at:</p>
+          <a href="mailto:mhkvlog@gmail.com" class="email-link">mhkvlog@gmail.com</a>
+
+          <div class="social-links">
+            <a href="#" target="_blank" class="social-icon">LinkedIn</a>
+            <a href="#" target="_blank" class="social-icon">Twitter</a>
+            <a href="#" target="_blank" class="social-icon">Instagram</a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal-up" action="https://formspree.io/f/xnnggvnq" method="POST">
+          <label><span>Name</span><input name="name" required></label>
+          <label><span>Email</span><input name="_replyto" type="email" required></label>
+          <label><span>Company / Website</span><input name="company"></label>
+          <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+
+          <div class="form-actions">
+            <button class="btn-primary animated-btn glow-btn" type="submit"><span>Send Message</span></button>
+            <a class="btn-secondary animated-btn" href="mailto:mhkvlog@gmail.com"><span>Email Me Directly</span></a>
+          </div>
+
+          <input type="hidden" name="_subject" value="Portfolio Contact">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>© <span id="yearC"></span> Muhammad Haidar Khan</div>
+      <div class="small-note">Marketing with heart & integrity.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // ScrollReveal animations
+    ScrollReveal().reveal('.reveal-up', {
+      distance: '40px',
+      origin: 'bottom',
+      opacity: 0,
+      duration: 1000,
+      interval: 150,
+      easing: 'ease-out'
+    });
+    ScrollReveal().reveal('.reveal-scale', {
+      scale: 0.9,
+      opacity: 0,
+      duration: 1000,
+      easing: 'ease-out'
+    });
+  </script>
+</body>
+</html>
+
 /* CONTACT PAGE */
 .contact-section {
   padding: 8rem 0 6rem;
