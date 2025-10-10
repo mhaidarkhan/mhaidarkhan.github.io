@@ -1,17 +1,175 @@
-/* --- BUTTON ANIMATIONS FIX --- */
-.animated-btn {
+/* ----------------------------------------------------
+   MUHAMMAD HAIDAR KHAN PORTFOLIO — Final CSS
+---------------------------------------------------- */
+
+/* --- Root Variables --- */
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --accent: #f0b35a;
+  --card-bg: #f8f8f8;
+  --border: rgba(0,0,0,0.1);
+}
+
+[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --text: #f2f2f2;
+  --accent: #ffd27f;
+  --card-bg: #181818;
+  --border: rgba(255,255,255,0.1);
+}
+
+/* --- Base Styles --- */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5em;
+}
+
+/* --- Header --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.3s ease;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: var(--text);
+}
+.nav a {
+  margin: 0 1em;
+  color: var(--text);
+  text-decoration: none;
   position: relative;
+  transition: color 0.3s;
+}
+.nav a:hover,
+.nav a.active {
+  color: var(--accent);
+}
+.menu-btn, .theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 0.5em;
+  color: var(--text);
+}
+
+/* --- Hero Section --- */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4em 0 2em;
+  gap: 2em;
+}
+.hero-left {
+  flex: 1 1 50%;
+}
+.hero-right {
+  flex: 1 1 40%;
+  text-align: center;
+}
+.hero-title {
+  font-size: 2.8rem;
+  margin: 0.5em 0;
+}
+.lead {
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+}
+.services-preview {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+.service-pill {
+  background: var(--card-bg);
+  padding: 0.4em 1em;
+  border-radius: 50px;
+  border: 1px solid var(--border);
+  font-size: 0.9em;
+}
+
+/* --- Buttons --- */
+.btn-primary, .btn-secondary {
   display: inline-block;
-  overflow: hidden;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  font-weight: 600;
   transition: all 0.3s ease;
   cursor: pointer;
-}
-
-.animated-btn span {
   position: relative;
-  z-index: 2;
 }
 
+.btn-primary {
+  background: var(--accent);
+  color: #000;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1.5px solid var(--border);
+}
+.btn-secondary:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* --- Animated Buttons --- */
+.animated-btn {
+  position: relative;
+  overflow: hidden;
+}
 .animated-btn::before {
   content: "";
   position: absolute;
@@ -20,24 +178,217 @@
   background: rgba(255,255,255,0.15);
   transition: all 0.5s ease;
 }
+.animated-btn:hover::before { left: 100%; }
 
-.animated-btn:hover::before {
-  left: 100%;
+/* --- Funnel Section --- */
+.funnel-section {
+  padding: 4em 0;
+}
+.funnel {
+  position: relative;
+}
+.funnel-line {
+  position: absolute;
+  left: 1.2em;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+}
+.pulse {
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 3.2s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.8; }
 }
 
-/* Glow effect used on "Learn My Approach" and Google Play */
-.glow-btn,
-.approach-btn {
-  color: var(--text);
-  border: 1.5px solid rgba(255,255,255,0.3);
-  transition: all 0.4s ease;
+.funnel-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
-
-.glow-btn:hover,
-.approach-btn:hover {
+.funnel-step {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 1em 1.2em 1.2em 3em;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s;
+}
+.funnel-step:hover {
+  background: rgba(0,0,0,0.03);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+.step-index {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  font-weight: 700;
   color: var(--accent);
-  box-shadow: 0 0 12px rgba(255, 200, 120, 0.4);
-  border-color: var(--accent);
+}
+.step-body h4 {
+  margin-bottom: 0.2em;
+}
+.step-details {
+  display: none;
+  margin-top: 0.5em;
+  font-size: 0.95em;
+}
+.funnel-step[aria-expanded="true"] .step-details {
+  display: block;
+}
+
+/* --- Books Section --- */
+.books-section {
+  padding: 4em 0 3em;
+}
+.book-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.book-cover {
+  flex: 1 1 250px;
+  max-width: 280px;
+}
+.book-content {
+  flex: 1 1 400px;
+  padding: 2em;
+}
+.book-cta {
+  margin-top: 1.2em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+/* --- Contact Section --- */
+.contact-section {
+  padding: 4em 0;
+}
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 0.3em;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8em;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+}
+.form-actions {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+/* --- Footer --- */
+.site-footer {
+  background: var(--card-bg);
+  padding: 2em 0;
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid var(--border);
+}
+.small-note {
+  opacity: 0.7;
+}
+
+/* --- Scroll Top Button --- */
+.scroll-top {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  background: var(--accent);
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Cursor Highlight --- */
+.cursor-highlight {
+  position: fixed;
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(255, 210, 120, 0.15);
+  mix-blend-mode: multiply;
+  transition: transform 0.15s ease, opacity 0.2s;
+  z-index: 9999;
+}
+
+/* --- Reveal Animation --- */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Page Overlay --- */
+.page-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: var(--bg);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s;
+  z-index: 1000;
+}
+.page-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero { flex-direction: column-reverse; text-align: center; }
+  .book-card { flex-direction: column; }
+  .nav { display: none; }
+  .nav.mobile-open { display: flex; flex-direction: column; align-items: center; }
 }
 
 /* --- FUNNEL DARK MODE FIX --- */
@@ -46,24 +397,20 @@
   color: #f5f5f5;
   border: 1px solid rgba(255,255,255,0.1);
 }
-
 [data-theme="dark"] .funnel-step:hover {
   background: rgba(255,255,255,0.08);
   box-shadow: 0 0 12px rgba(255,255,255,0.1);
 }
-
 [data-theme="dark"] .funnel-step h4 {
   color: #ffffff;
 }
-
 [data-theme="dark"] .step-excerpt,
 [data-theme="dark"] .step-details {
   color: rgba(255,255,255,0.85);
 }
-
 [data-theme="dark"] .funnel-line {
   background: rgba(255,255,255,0.15);
 }
 [data-theme="dark"] .pulse {
-  background: var(--accent, #ffd27f);
+  background: var(--accent);
 }
