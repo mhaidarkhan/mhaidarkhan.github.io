@@ -1,77 +1,155 @@
-// core interactivity: theme toggle, menu, smooth link scroll, year
+// main.js — enhanced interactivity: theme, page transitions, scroll reveal, parallax, cursor, lazy load
 (function(){
-  // elements
-  const themeToggleBtns = Array.from(document.querySelectorAll('#themeToggle, #themeToggle2, #themeToggle3, #themeToggle4, #themeToggle5'));
-  const themeIcons = Array.from(document.querySelectorAll('#themeIcon, #themeIcon2, #themeIcon3, #themeIcon4, #themeIcon5'));
-  const menuBtns = Array.from(document.querySelectorAll('#menuBtn, #menuBtn2, #menuBtn3, #menuBtn4, #menuBtn5'));
+  // helpers
+  const $ = selector => document.querySelector(selector);
+  const $$ = selector => Array.from(document.querySelectorAll(selector));
 
-  // initialize year(s)
-  document.querySelectorAll('#year, #year2, #year3, #year4, #year5').forEach(el => {
-    if(el) el.textContent = new Date().getFullYear();
-  });
+  // page overlay for smooth transitions
+  const overlay = document.getElementById('pageOverlay');
 
-  // theme handling: default to light unless previously saved
+  // theme toggle (default: light)
   const saved = localStorage.getItem('haidar-theme');
-  const root = document.documentElement;
-  if(saved === 'dark'){
-    document.body.setAttribute('data-theme','dark');
-    themeIcons.forEach(ic => ic && (ic.textContent = '🌙'));
-  } else {
-    document.body.setAttribute('data-theme','light');
-    themeIcons.forEach(ic => ic && (ic.textContent = '☀️'));
+  if(saved === 'dark') document.body.setAttribute('data-theme','dark');
+  else document.body.setAttribute('data-theme','light');
+
+  // update icons on all theme buttons
+  function updateThemeIcons(){
+    $$('#themeToggle, #themeToggle2, #themeToggle3, #themeToggle4, #themeToggle5').forEach(btn=>{
+      if(!btn) return;
+      btn.textContent = document.body.getAttribute('data-theme') === 'dark' ? '🌙' : '☀️';
+    });
   }
+  updateThemeIcons();
 
   function toggleTheme(){
-    const current = document.body.getAttribute('data-theme') || 'light';
-    const next = current === 'light' ? 'dark' : 'light';
+    const next = document.body.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
     document.body.setAttribute('data-theme', next);
     localStorage.setItem('haidar-theme', next);
-    themeIcons.forEach(ic => ic && (ic.textContent = next === 'dark' ? '🌙' : '☀️'));
+    updateThemeIcons();
+    // small glow pulse
+    document.body.animate([{opacity:0.98},{opacity:1}], {duration:300,fill:'forwards'});
   }
+  // attach to any theme buttons present
+  $$('#themeToggle, #themeToggle2, #themeToggle3, #themeToggle4, #themeToggle5').forEach(b=> b && b.addEventListener('click', toggleTheme));
 
-  themeToggleBtns.forEach(btn => btn && btn.addEventListener('click', toggleTheme));
-
-  // simple mobile menu toggles
-  menuBtns.forEach(btn => {
-    if(!btn) return;
-    btn.addEventListener('click', () => {
-      const nav = btn.closest('.header-inner').querySelector('.nav');
+  // Menu toggle (mobile)
+  $$('#menuBtn, #menuBtn2, #menuBtn3, #menuBtn4, #menuBtn5').forEach(b => {
+    if(!b) return;
+    b.addEventListener('click', ()=> {
+      const nav = b.closest('.header-inner').querySelector('.nav');
       if(!nav) return;
       nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
       nav.style.flexDirection = 'column';
+      nav.style.gap = '12px';
       nav.style.background = 'transparent';
-      nav.style.padding = '10px';
+      nav.style.padding = '12px';
     });
   });
 
-  // smooth anchor scroll for local anchors
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', function(e){
-      const target = document.querySelector(this.getAttribute('href'));
-      if(target){
-        e.preventDefault();
-        target.scrollIntoView({behavior:'smooth',block:'start'});
+  // Smooth "page" transition for internal links (adds overlay then navigates)
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest('a');
+    if(!a) return;
+    const href = a.getAttribute('href');
+    if(!href) return;
+    // only intercept same-origin page links (html pages, not hashes or external)
+    if(href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('#')) return;
+    e.preventDefault();
+    if(overlay) overlay.classList.add('active');
+    // small delay for animation, then navigate
+    setTimeout(()=> window.location = href, 450);
+  });
+
+  // Scroll-to-top button
+  const scrollTop = $('#scrollTop');
+  window.addEventListener('scroll', () => {
+    if(window.scrollY > 400) scrollTop && scrollTop.classList.add('show');
+    else scrollTop && scrollTop.classList.remove('show');
+  });
+  scrollTop && scrollTop.addEventListener('click', ()=> window.scrollTo({top:0,behavior:'smooth'}));
+
+  // IntersectionObserver: reveal elements with stagger
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const el = entry.target;
+        const delay = parseFloat(el.dataset.revealDelay || '0');
+        setTimeout(()=> el.classList.add('visible'), delay * 1000);
+        revealObserver.unobserve(el);
       }
     });
+  }, {threshold:0.15});
+
+  // add .reveal to important blocks automatically
+  $$('.card, .case, .hero-left, .hero-right, .about-hero, .service-grid, .case-study, .work-preview .case-list > *').forEach((el,i)=>{
+    el.classList.add('reveal');
+    el.dataset.revealDelay = (i * 0.06).toFixed(2); // stagger
+    revealObserver.observe(el);
   });
 
-  // progressive enhancement: form submit feedback (client side)
+  // Parallax effect for elements with [data-parallax]
+  const parallaxEls = $$('[data-parallax]');
+  window.addEventListener('scroll', () => {
+    const sc = window.scrollY;
+    parallaxEls.forEach(el => {
+      // gentle translate on scroll
+      const speed = parseFloat(el.dataset.parallaxSpeed || '0.18');
+      el.style.transform = `translateY(${sc * speed}px)`;
+    });
+  }, {passive:true});
+
+  // Lazy image reveal (add fade when loaded)
+  $$('img[loading="lazy"]').forEach(img => {
+    if(img.complete) img.classList.add('loaded');
+    else {
+      img.addEventListener('load', ()=> img.classList.add('loaded'));
+    }
+  });
+
+  // cursor highlight (subtle)
+  const cursor = document.createElement('div');
+  cursor.className = 'cursor-highlight';
+  document.body.appendChild(cursor);
+  window.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  // enlarge on actionable elements
+  ['a','button','.btn-primary','.nav a'].forEach(sel => {
+    $$(sel).forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1.5)'; cursor.style.opacity = '0.9'; });
+      el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; cursor.style.opacity = '1'; });
+    });
+  });
+
+  // small submit UX for contact form
   const contactForm = document.getElementById('contactForm');
   if(contactForm){
-    contactForm.addEventListener('submit', function(e){
-      // let Formspree handle actual submit. We show a quick UI hint.
+    contactForm.addEventListener('submit', (e) => {
       const btn = contactForm.querySelector('button[type="submit"]');
       if(btn){
         btn.disabled = true;
+        const prev = btn.textContent;
         btn.textContent = 'Sending…';
+        // re-enable after 4s in case user stays (Formspree will handle redirect)
+        setTimeout(()=> { btn.disabled=false; btn.textContent = prev; }, 4000);
       }
-      // allow normal form submit to Formspree
-      setTimeout(()=> {
-        if(btn){
-          btn.disabled = false;
-          btn.textContent = 'Send message';
-        }
-      }, 3000);
     });
   }
+
+  // On load, animate overlay out
+  window.addEventListener('load', () => {
+    if(overlay) {
+      overlay.classList.remove('active');
+      // brief overlay flash in then out for first navigation appearance
+      overlay.style.transition = 'transform .6s cubic-bezier(.2,.9,.25,1), opacity .5s';
+    }
+    // small entrance animation for hero image
+    const heroImg = document.querySelector('.portrait-frame img');
+    if(heroImg) heroImg.style.transform = 'translateY(-6px)';
+    setTimeout(()=> {
+      if(heroImg) heroImg.style.transform = 'translateY(0)';
+    }, 420);
+  });
+
 })();
