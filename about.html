@@ -1,17 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About — Muhammad Haidar Khan</title>
   <link rel="icon" href="assets/favicon.png" type="image/png">
-  <link rel="stylesheet" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-theme="light">
 
-  <div id="pageOverlay" class="page-overlay"></div>
+  <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <div class="cursor-highlight" id="cursorHighlight2" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="wrap header-inner">
@@ -21,48 +22,62 @@
         <a href="about.html" class="active">About</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀️</button>
+      <div class="header-right">
+        <button id="themeToggle2" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="about-hero wrap">
-      <div class="about-text">
-        <h1>About Me</h1>
-        <p>
-          I’m <strong>Muhammad Haidar Khan</strong> — a marketer driven by empathy, creativity, and the desire to build human-centered brands.
-        </p>
-        <p>
-          I believe great marketing is selfless — it listens first, understands deeply, and delivers value that feels genuine. 
-          My work focuses on emotion-led storytelling and strategy that grows lasting relationships between people and brands.
-        </p>
-        <p>
-          Over the years, I’ve helped startups and creators craft campaigns rooted in emotion and purpose. 
-          For me, success isn’t just numbers — it’s the feeling your customers have when they trust your brand.
-        </p>
+      <div class="about-left">
+        <h1>Hi — I'm Muhammad Haidar Khan</h1>
+        <p class="lead">I do marketing with love, emotion, and a deep focus on customers. My work combines creative storytelling with measurable funnels.</p>
+
+        <div class="about-story">
+          <p>My approach grew from a simple belief: marketing should be selfless. It should start by understanding people's true motivations and serve them honestly. Over the years I’ve worked with startups and creators to build engaging, trust-first experiences.</p>
+
+          <p>When we build stories that feel like help — not interruption — people convert and stick. I focus on that sweet spot where emotion meets strategy.</p>
+        </div>
+
+        <div class="values-grid">
+          <div class="card"><h4>Empathy</h4><p>Customer insight before assumptions.</p></div>
+          <div class="card"><h4>Clarity</h4><p>Simple frameworks that drive action.</p></div>
+          <div class="card"><h4>Measurement</h4><p>Decisions backed by clean analytics.</p></div>
+        </div>
+
       </div>
 
-      <div class="about-photo">
-        <div class="portrait-frame" data-parallax>
-          <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan portrait" loading="lazy" />
+      <aside class="about-right">
+        <div class="portrait-frame portrait-rotate" data-parallax>
+          <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan" loading="lazy">
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section class="values wrap">
-      <h2>My Core Values</h2>
-      <div class="service-grid">
-        <div class="card"><h3>Empathy</h3><p>Every strategy starts by understanding people first.</p></div>
-        <div class="card"><h3>Purpose</h3><p>Marketing should always serve a genuine mission, not just metrics.</p></div>
-        <div class="card"><h3>Integrity</h3><p>Honest stories build real connections and sustainable growth.</p></div>
+    <section class="wrap timeline">
+      <h2 class="section-title">Experience & Approach</h2>
+      <div class="timeline-cards">
+        <article class="card">
+          <h4>Customer Research</h4>
+          <p>Interviews, mapping, and qualitative insight to shape messaging.</p>
+        </article>
+        <article class="card">
+          <h4>Creative Systems</h4>
+          <p>Repeatable creative principles to scale performance campaigns.</p>
+        </article>
+        <article class="card">
+          <h4>Optimization & Growth</h4>
+          <p>Test, measure and scale with retention and LTV in mind.</p>
+        </article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <span>© 2025 Muhammad Haidar Khan</span>
-      <span>Marketing with heart & integrity.</span>
+      <div>© <span id="yearA"></span> Muhammad Haidar Khan</div>
+      <div>Marketing with heart & integrity.</div>
     </div>
   </footer>
 
