@@ -1,90 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact Muhammad Haidar Khan — Let's build meaningful, emotion-driven marketing together." />
-  <title>Contact | Muhammad Haidar Khan</title>
-  <link rel="icon" href="assets/img/favicon.png" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Muhammad Haidar Khan</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+<body data-theme="light">
+  <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <div class="cursor-highlight" id="cursorHighlight3" aria-hidden="true"></div>
 
-<body>
-  <!-- Cursor highlight -->
-  <div class="cursor-highlight"></div>
-
-  <!-- Page overlay -->
-  <div id="pageOverlay" class="page-overlay"></div>
-
-  <!-- Header -->
   <header class="site-header">
     <div class="wrap header-inner">
-      <a href="index.html" class="logo">Muhammad Haidar Khan</a>
+      <a class="logo" href="index.html">Haidar</a>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html" class="active">Contact</a>
-        <a href="books.html">Books</a>
       </nav>
-      <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀️</button>
+      <div class="header-right">
+        <button id="themeToggle3" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+      </div>
     </div>
   </header>
 
-  <!-- Contact Hero -->
-  <section class="contact-hero wrap reveal">
-    <h1 class="section-title">Let's Start a Conversation</h1>
-    <p class="lead">I personally reply to every message — tell me a bit about your goals, and let’s explore how to grow your brand with purpose and emotion.</p>
-  </section>
+  <main class="wrap contact-wrap">
+    <h1>Contact</h1>
+    <p class="lead">Tell me about your goals and timeline — I’ll respond personally.</p>
 
-  <!-- Contact Form -->
-  <section class="contact-section wrap reveal">
     <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnnggvnq" method="POST">
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input id="name" name="name" type="text" required />
-      </div>
-
-      <div class="form-group">
-        <label for="email">Your Email</label>
-        <input id="email" name="_replyto" type="email" required />
-      </div>
-
-      <div class="form-group">
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
+      <label><span>Name</span><input name="name" required></label>
+      <label><span>Email</span><input name="_replyto" type="email" required></label>
+      <label><span>Company / Website</span><input name="company"></label>
+      <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
 
       <div class="form-actions">
-        <button type="submit" class="btn-primary animated-btn"><span>Send Message</span></button>
-        <a href="mailto:mhkvlog@gmail.com" class="btn-outline animated-btn email-btn"><span>✉️ Email Me Directly</span></a>
+        <button class="btn-primary" type="submit">Send message</button>
+        <a class="btn-ghost" href="mailto:mhkvlog@gmail.com">Email directly</a>
       </div>
+
+      <input type="hidden" name="_subject" value="Portfolio contact">
+      <input type="hidden" name="_captcha" value="false">
     </form>
-  </section>
+  </main>
 
-  <!-- Additional Contact Info -->
-  <section class="contact-info wrap reveal">
-    <h2>Other Ways to Connect</h2>
-    <div class="info-grid">
-      <div class="info-card">
-        <h3>Direct Email</h3>
-        <p><a href="mailto:mhkvlog@gmail.com">mhkvlog@gmail.com</a></p>
-      </div>
-      <div class="info-card">
-        <h3>Location</h3>
-        <p>Based globally — collaborating remotely with teams around the world.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; <span id="yearC"></span> Muhammad Haidar Khan — Crafted with empathy and strategy.</p>
+    <div class="wrap footer-inner">
+      <div>© <span id="yearC"></span> Muhammad Haidar Khan</div>
+      <div>Marketing with heart & integrity.</div>
     </div>
   </footer>
-
-  <!-- Scroll Top -->
-  <button id="scrollTop" class="scroll-top">↑</button>
 
   <script src="assets/js/main.js"></script>
 </body>
