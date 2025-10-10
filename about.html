@@ -1,88 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About — Muhammad Haidar Khan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
-<body>
-  <!-- Page transition overlay -->
-<div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+<body data-theme="light">
 
-<!-- Scroll to top -->
-<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
-<!-- example hero-right -->
-<aside class="hero-right">
-  <div class="portrait-frame" data-parallax>
-    <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy" />
-  </div>
-</aside>
+  <div id="pageOverlay" class="page-overlay"></div>
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
 
-  
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="/index.html">haidar</a>
+      <a class="logo" href="index.html">Haidar</a>
       <nav class="nav">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/services.html">Services</a>
-        <a href="/work.html">Work</a>
-        <a href="/contact.html" class="cta">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <div class="header-right">
-        <button id="themeToggle2" class="theme-toggle" aria-label="Toggle theme"><span id="themeIcon2">☀️</span></button>
-        <button id="menuBtn2" class="menu-btn">☰</button>
-      </div>
+      <button id="themeToggle" class="theme-toggle" title="Toggle theme">☀️</button>
     </div>
   </header>
 
-  <main class="wrap">
-    <section class="about-hero">
-      <div class="about-grid">
-        <div class="bio card">
-          <h1>Hi — I’m Muhammad Haidar Khan</h1>
-          <p>I do marketing with love and emotion. My approach is simple: listen to customers, craft emotionally resonant creative, then use data to iterate and scale. I work with startups and e-commerce teams who want long-term growth — not vanity metrics.</p>
+  <main>
+    <section class="about-hero wrap">
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>
+          I’m <strong>Muhammad Haidar Khan</strong> — a marketer driven by empathy, creativity, and the desire to build human-centered brands.
+        </p>
+        <p>
+          I believe great marketing is selfless — it listens first, understands deeply, and delivers value that feels genuine. 
+          My work focuses on emotion-led storytelling and strategy that grows lasting relationships between people and brands.
+        </p>
+        <p>
+          Over the years, I’ve helped startups and creators craft campaigns rooted in emotion and purpose. 
+          For me, success isn’t just numbers — it’s the feeling your customers have when they trust your brand.
+        </p>
+      </div>
 
-          <h3>How I help</h3>
-          <ul>
-            <li>Design funnels that match customer psychology</li>
-            <li>Run performance campaigns with empathetic messaging</li>
-            <li>Measure & optimize for lifetime value and retention</li>
-          </ul>
+      <div class="about-photo">
+        <div class="portrait-frame" data-parallax>
+          <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan portrait" loading="lazy" />
         </div>
-
-        <aside class="bio-photo">
-          <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan">
-        </aside>
       </div>
     </section>
 
     <section class="values wrap">
-      <h2>Why this approach works</h2>
-      <p class="muted">Brands that connect emotionally convert better and retain customers longer. Pair that with rigorous analytics and you get predictable growth.</p>
-
-      <div class="cards">
-        <article class="card">
-          <h4>Empathy</h4>
-          <p>Message design grounded in customer pain points and aspiration.</p>
-        </article>
-        <article class="card">
-          <h4>Accountability</h4>
-          <p>Clear KPIs: CAC, ROAS, LTV — not just impressions or likes.</p>
-        </article>
-        <article class="card">
-          <h4>Craft</h4>
-          <p>Briefs and creative that emotionally move people to act.</p>
-        </article>
+      <h2>My Core Values</h2>
+      <div class="service-grid">
+        <div class="card"><h3>Empathy</h3><p>Every strategy starts by understanding people first.</p></div>
+        <div class="card"><h3>Purpose</h3><p>Marketing should always serve a genuine mission, not just metrics.</p></div>
+        <div class="card"><h3>Integrity</h3><p>Honest stories build real connections and sustainable growth.</p></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>© <span id="year2"></span> Muhammad Haidar Khan</div>
+      <span>© 2025 Muhammad Haidar Khan</span>
+      <span>Marketing with heart & integrity.</span>
     </div>
   </footer>
 
