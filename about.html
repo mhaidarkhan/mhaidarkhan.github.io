@@ -7,13 +7,16 @@
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body data-theme="light">
 
   <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
   <div class="cursor-highlight" id="cursorHighlight2" aria-hidden="true"></div>
 
+  <!-- HEADER -->
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html">Haidar</a>
@@ -28,59 +31,100 @@
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
+
+    <!-- ABOUT HERO -->
     <section class="about-hero wrap">
-      <div class="about-left">
-        <h1>Hi — I'm Muhammad Haidar Khan</h1>
-        <p class="lead">I do marketing with love, emotion, and a deep focus on customers. My work combines creative storytelling with measurable funnels.</p>
+      <div class="about-grid">
+        <div class="about-left reveal-fade">
+          <h1>Hi — I'm <span class="accent">Muhammad Haidar Khan</span></h1>
+          <p class="lead">I do marketing with love, emotion, and a deep focus on people. My work blends heartfelt storytelling with rigorous funnels that drive growth.</p>
 
-        <div class="about-story">
-          <p>My approach grew from a simple belief: marketing should be selfless. It should start by understanding people's true motivations and serve them honestly. Over the years I’ve worked with startups and creators to build engaging, trust-first experiences.</p>
+          <div class="about-story reveal-up">
+            <p>My philosophy is simple: <strong>marketing should be selfless</strong>. It begins with understanding human emotion — what people truly want — and creating value that feels natural, not forced. Over time, this empathy turns into loyalty.</p>
+            <p>I’ve helped startups and creators tell stories that connect, build community, and convert with integrity.</p>
+          </div>
 
-          <p>When we build stories that feel like help — not interruption — people convert and stick. I focus on that sweet spot where emotion meets strategy.</p>
+          <div class="values-grid">
+            <div class="value-card reveal-up delay-1">
+              <h4>Empathy</h4>
+              <p>Customer insight before assumptions.</p>
+            </div>
+            <div class="value-card reveal-up delay-2">
+              <h4>Clarity</h4>
+              <p>Simple frameworks that drive action.</p>
+            </div>
+            <div class="value-card reveal-up delay-3">
+              <h4>Measurement</h4>
+              <p>Decisions guided by data and human truth.</p>
+            </div>
+          </div>
         </div>
 
-        <div class="values-grid">
-          <div class="card"><h4>Empathy</h4><p>Customer insight before assumptions.</p></div>
-          <div class="card"><h4>Clarity</h4><p>Simple frameworks that drive action.</p></div>
-          <div class="card"><h4>Measurement</h4><p>Decisions backed by clean analytics.</p></div>
-        </div>
-
+        <aside class="about-right reveal-scale" data-parallax>
+          <div class="portrait-frame large">
+            <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan" loading="lazy">
+          </div>
+        </aside>
       </div>
-
-      <aside class="about-right">
-        <div class="portrait-frame portrait-rotate" data-parallax>
-          <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan" loading="lazy">
-        </div>
-      </aside>
     </section>
 
-    <section class="wrap timeline">
-      <h2 class="section-title">Experience & Approach</h2>
+    <!-- TIMELINE / EXPERIENCE -->
+    <section class="wrap timeline-section">
+      <h2 class="section-title reveal-fade">Experience & Approach</h2>
+
       <div class="timeline-cards">
-        <article class="card">
+        <article class="timeline-card reveal-up">
           <h4>Customer Research</h4>
-          <p>Interviews, mapping, and qualitative insight to shape messaging.</p>
+          <p>Interviews, mapping, and qualitative insights that build empathy and refine messaging.</p>
         </article>
-        <article class="card">
+
+        <article class="timeline-card reveal-up delay-1">
           <h4>Creative Systems</h4>
-          <p>Repeatable creative principles to scale performance campaigns.</p>
+          <p>Reusable frameworks and creative libraries that keep performance high and scalable.</p>
         </article>
-        <article class="card">
+
+        <article class="timeline-card reveal-up delay-2">
           <h4>Optimization & Growth</h4>
-          <p>Test, measure and scale with retention and LTV in mind.</p>
+          <p>Continuous testing, learning, and scaling based on data and real human feedback.</p>
         </article>
       </div>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <div>© <span id="yearA"></span> Muhammad Haidar Khan</div>
-      <div>Marketing with heart & integrity.</div>
+      <div class="small-note">Marketing with heart & integrity.</div>
     </div>
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script>
+    // ScrollReveal animations
+    ScrollReveal().reveal('.reveal-fade', {
+      distance: '0px',
+      opacity: 0,
+      duration: 900,
+      easing: 'ease-out',
+    });
+    ScrollReveal().reveal('.reveal-up', {
+      distance: '50px',
+      origin: 'bottom',
+      opacity: 0,
+      duration: 1000,
+      easing: 'ease-out',
+      interval: 150
+    });
+    ScrollReveal().reveal('.reveal-scale', {
+      scale: 0.9,
+      opacity: 0,
+      duration: 1200,
+      easing: 'ease-out'
+    });
+  </script>
+
 </body>
 </html>
