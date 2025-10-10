@@ -196,3 +196,103 @@ body[data-theme="dark"] {
 .book-card { background: var(--surface); }
 
 
+/* Premium Motion Buttons */
+.animated-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transform: translateY(0);
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.animated-btn span {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+/* Ripple + Lift */
+.animated-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, var(--accent, #00b3b3) 10%, transparent 10%);
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  transition: width 0.5s ease, height 0.5s ease, opacity 0.4s ease;
+}
+.animated-btn:hover::before {
+  width: 300%;
+  height: 300%;
+  opacity: 0;
+}
+.animated-btn:hover span {
+  transform: translateY(-2px);
+}
+.animated-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* Apple-style solid black */
+.apple-btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.apple-btn:hover {
+  background-color: #333;
+}
+
+/* Google Play teal accent */
+.play-btn {
+  border: 1px solid #00c896;
+  color: #00c896;
+  background: transparent;
+}
+.play-btn:hover {
+  background-color: #00c896;
+  color: #fff;
+}
+
+/* Approach button — soft glowing underline */
+.approach-btn {
+  position: relative;
+  border: 1px solid #ccc;
+  color: #111;
+}
+.approach-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: all 0.4s ease;
+  transform: translateX(-50%);
+}
+.approach-btn:hover::after {
+  width: 80%;
+}
+.approach-btn:hover {
+  color: var(--accent, #00b3b3);
+}
+
+/* Dark-mode refinements */
+body[data-theme="dark"] .approach-btn {
+  border-color: #444;
+  color: #eee;
+}
+body[data-theme="dark"] .approach-btn:hover {
+  color: #00d1b2;
+}
+body[data-theme="dark"] .play-btn {
+  border-color: #00d1b2;
+  color: #00d1b2;
+}
+body[data-theme="dark"] .play-btn:hover {
+  background-color: #00d1b2;
+  color: #111;
+}
