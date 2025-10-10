@@ -12,6 +12,7 @@
 
 <body data-theme="light">
 
+  <!-- overlay + scroll -->
   <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
   <div class="cursor-highlight" id="cursorHighlight2" aria-hidden="true"></div>
@@ -35,62 +36,59 @@
   <main>
 
     <!-- ABOUT HERO -->
-    <section class="about-hero wrap">
-      <div class="about-grid">
-        <div class="about-left reveal-fade">
-          <h1>Hi — I'm <span class="accent">Muhammad Haidar Khan</span></h1>
-          <p class="lead">I do marketing with love, emotion, and a deep focus on people. My work blends heartfelt storytelling with rigorous funnels that drive growth.</p>
+    <section class="wrap about-section">
+      <div class="about-container">
+        <div class="about-text reveal-up">
+          <h1>Meet <span class="accent">Muhammad Haidar Khan</span></h1>
+          <p class="lead">A digital marketing strategist passionate about <strong>empathy-driven growth</strong>. I help brands tell stories that feel human — and convert because of it.</p>
 
-          <div class="about-story reveal-up">
-            <p>My philosophy is simple: <strong>marketing should be selfless</strong>. It begins with understanding human emotion — what people truly want — and creating value that feels natural, not forced. Over time, this empathy turns into loyalty.</p>
-            <p>I’ve helped startups and creators tell stories that connect, build community, and convert with integrity.</p>
-          </div>
+          <p>Every brand is built on emotion. I believe in designing marketing ecosystems that put people first: from voice-of-customer insights to full-funnel experiences that foster trust.</p>
+
+          <p>Marketing done right feels effortless — it educates, empowers, and inspires. That’s the core of my work: helping brands grow with purpose, not pressure.</p>
 
           <div class="values-grid">
-            <div class="value-card reveal-up delay-1">
+            <div class="value-card reveal-fade delay-1">
               <h4>Empathy</h4>
-              <p>Customer insight before assumptions.</p>
+              <p>Understanding real human emotion before strategy.</p>
             </div>
-            <div class="value-card reveal-up delay-2">
+            <div class="value-card reveal-fade delay-2">
               <h4>Clarity</h4>
-              <p>Simple frameworks that drive action.</p>
+              <p>Simple narratives that resonate instantly.</p>
             </div>
-            <div class="value-card reveal-up delay-3">
+            <div class="value-card reveal-fade delay-3">
               <h4>Measurement</h4>
-              <p>Decisions guided by data and human truth.</p>
+              <p>Data as a compass — not a cage.</p>
             </div>
           </div>
         </div>
 
-        <aside class="about-right reveal-scale" data-parallax>
-          <div class="portrait-frame large">
+        <div class="about-image reveal-scale">
+          <div class="portrait-frame large" data-parallax>
             <img src="assets/images/haidar2.jpg" alt="Muhammad Haidar Khan" loading="lazy">
           </div>
-        </aside>
+        </div>
       </div>
     </section>
 
-    <!-- TIMELINE / EXPERIENCE -->
-    <section class="wrap timeline-section">
-      <h2 class="section-title reveal-fade">Experience & Approach</h2>
-
-      <div class="timeline-cards">
-        <article class="timeline-card reveal-up">
+    <!-- EXPERIENCE -->
+    <section class="wrap experience-section">
+      <h2 class="section-title reveal-fade">Experience & Philosophy</h2>
+      <div class="experience-grid">
+        <div class="experience-card reveal-up delay-1">
           <h4>Customer Research</h4>
-          <p>Interviews, mapping, and qualitative insights that build empathy and refine messaging.</p>
-        </article>
-
-        <article class="timeline-card reveal-up delay-1">
+          <p>Empathy-led insight work that informs authentic creative direction.</p>
+        </div>
+        <div class="experience-card reveal-up delay-2">
           <h4>Creative Systems</h4>
-          <p>Reusable frameworks and creative libraries that keep performance high and scalable.</p>
-        </article>
-
-        <article class="timeline-card reveal-up delay-2">
-          <h4>Optimization & Growth</h4>
-          <p>Continuous testing, learning, and scaling based on data and real human feedback.</p>
-        </article>
+          <p>Frameworks that make creativity consistent and measurable.</p>
+        </div>
+        <div class="experience-card reveal-up delay-3">
+          <h4>Growth Strategy</h4>
+          <p>Building sustainable funnels focused on retention, not churn.</p>
+        </div>
       </div>
     </section>
+
   </main>
 
   <!-- FOOTER -->
@@ -103,20 +101,20 @@
 
   <script src="assets/js/main.js"></script>
   <script>
-    // ScrollReveal animations
-    ScrollReveal().reveal('.reveal-fade', {
-      distance: '0px',
-      opacity: 0,
-      duration: 900,
-      easing: 'ease-out',
-    });
+    // ScrollReveal animation setup
     ScrollReveal().reveal('.reveal-up', {
-      distance: '50px',
+      distance: '40px',
       origin: 'bottom',
       opacity: 0,
       duration: 1000,
-      easing: 'ease-out',
-      interval: 150
+      interval: 150,
+      easing: 'ease-out'
+    });
+    ScrollReveal().reveal('.reveal-fade', {
+      opacity: 0,
+      duration: 900,
+      interval: 100,
+      easing: 'ease-out'
     });
     ScrollReveal().reveal('.reveal-scale', {
       scale: 0.9,
