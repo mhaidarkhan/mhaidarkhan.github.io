@@ -4,85 +4,53 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact — Muhammad Haidar Khan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <!-- Page transition overlay -->
-<div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
-
-<!-- Scroll to top -->
-<button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
-<!-- example hero-right -->
-<aside class="hero-right">
-  <div class="portrait-frame" data-parallax>
-    <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy" />
-  </div>
-</aside>
+<body data-theme="light">
+  <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <div class="cursor-highlight" id="cursorHighlight3" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="/index.html">haidar</a>
+      <a class="logo" href="index.html">Haidar</a>
       <nav class="nav">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/services.html">Services</a>
-        <a href="/work.html">Work</a>
-        <a href="/contact.html" class="cta">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
       </nav>
       <div class="header-right">
-        <button id="themeToggle5" class="theme-toggle" aria-label="Toggle theme"><span id="themeIcon5">☀️</span></button>
-        <button id="menuBtn5" class="menu-btn">☰</button>
+        <button id="themeToggle3" class="theme-toggle" aria-label="Toggle theme">☀️</button>
       </div>
     </div>
   </header>
 
-  <main class="wrap contact-page">
-    <h1>Let's work together</h1>
-    <p class="muted">Tell me about your goals — I’ll respond within 48 hours.</p>
+  <main class="wrap contact-wrap">
+    <h1>Contact</h1>
+    <p class="lead">Tell me about your goals and timeline — I’ll respond personally.</p>
 
-    <form id="contactForm" action="https://formspree.io/f/xnnggvnq" method="POST" class="contact-form">
-      <label>
-        <span>Name</span>
-        <input type="text" name="name" required />
-      </label>
-
-      <label>
-        <span>Email</span>
-        <input type="email" name="_replyto" required />
-      </label>
-
-      <label>
-        <span>Company / Website (optional)</span>
-        <input type="text" name="company" />
-      </label>
-
-      <label>
-        <span>Message</span>
-        <textarea name="message" rows="6" required></textarea>
-      </label>
-
-      <!-- optional honeypot -->
-      <input type="text" name="_gotcha" style="display:none">
+    <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnnggvnq" method="POST">
+      <label><span>Name</span><input name="name" required></label>
+      <label><span>Email</span><input name="_replyto" type="email" required></label>
+      <label><span>Company / Website</span><input name="company"></label>
+      <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
 
       <div class="form-actions">
-        <button type="submit" class="btn-primary">Send message</button>
+        <button class="btn-primary" type="submit">Send message</button>
         <a class="btn-ghost" href="mailto:mhkvlog@gmail.com">Email directly</a>
       </div>
 
-      <input type="hidden" name="_subject" value="New contact from portfolio site">
+      <input type="hidden" name="_subject" value="Portfolio contact">
       <input type="hidden" name="_captcha" value="false">
     </form>
-
-    <div class="contact-note card">
-      <h4>Prefer email?</h4>
-      <p>mhkvlog@gmail.com</p>
-    </div>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>© <span id="year5"></span> Muhammad Haidar Khan</div>
+      <div>© <span id="yearC"></span> Muhammad Haidar Khan</div>
+      <div>Marketing with heart & integrity.</div>
     </div>
   </footer>
 
