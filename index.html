@@ -7,21 +7,27 @@
   <link rel="icon" href="assets/favicon.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
+
 <body data-theme="light">
 
+  <!-- overlay + scroll -->
   <div id="pageOverlay" class="page-overlay" aria-hidden="true"></div>
   <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
   <div class="cursor-highlight" id="cursorHighlight" aria-hidden="true"></div>
 
+  <!-- HEADER -->
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="index.html">Haidar</a>
+
       <nav class="nav">
         <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
+
       <div class="header-right">
         <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
         <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
@@ -29,18 +35,28 @@
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
-    <section class="hero wrap fade-in">
+
+    <!-- HERO -->
+    <section class="hero wrap">
       <div class="hero-left">
         <p class="eyebrow">Muhammad Haidar Khan</p>
         <h1 class="hero-title">Marketing with love,<br>emotion, and purpose.</h1>
         <p class="lead">I build customer-first brands that last — human stories, rigorous funnels, and measurable growth.</p>
 
         <div class="hero-actions">
-          <a href="contact.html" class="btn-primary animated-btn"><span>Work with me</span></a>
-          <a href="about.html" class="btn-ghost animated-btn approach-btn"><span>✨ Learn My Approach</span></a>
+          <a href="contact.html" class="btn-primary animated-btn">Work with me</a>
+          <a href="about.html" class="btn-secondary animated-btn">Learn my approach</a>
+        </div>
+
+        <div class="services-preview">
+          <div class="service-pill">Brand Strategy</div>
+          <div class="service-pill">Content Marketing</div>
+          <div class="service-pill">Social Growth</div>
         </div>
       </div>
+
       <aside class="hero-right">
         <div class="portrait-frame" data-parallax>
           <img src="assets/images/haidar.jpg" alt="Muhammad Haidar Khan" loading="lazy">
@@ -48,56 +64,100 @@
       </aside>
     </section>
 
-    <section class="wrap services-section fade-up">
+    <!-- SERVICES -->
+    <section class="wrap services-section">
       <h2 class="section-title">Services — what I do</h2>
       <div class="service-grid">
-        <article class="card service-card"><h3>Brand Strategy</h3><p>Define voice, positioning, and journeys grounded in empathy.</p></article>
-        <article class="card service-card"><h3>Content Marketing</h3><p>Emotion-first content that converts attention into trust and action.</p></article>
-        <article class="card service-card"><h3>Social Growth</h3><p>Creative sequencing and paid tactics that scale sustainably.</p></article>
+        <article class="card service-card">
+          <h3>Brand Strategy</h3>
+          <p>Define voice, positioning and customer journeys grounded in empathy.</p>
+        </article>
+
+        <article class="card service-card">
+          <h3>Content Marketing</h3>
+          <p>Emotion-first content that converts attention into trust and action.</p>
+        </article>
+
+        <article class="card service-card">
+          <h3>Social Growth</h3>
+          <p>Creative sequencing and paid tactics that scale sustainably.</p>
+        </article>
       </div>
     </section>
 
-    <section class="wrap funnel-section fade-up">
+    <!-- STORY FUNNEL -->
+    <section class="wrap funnel-section">
       <h2 class="section-title">The Story Funnel — a human-first process</h2>
       <div class="funnel">
-        <div class="funnel-line" aria-hidden="true"><span class="pulse"></span></div>
+        <div class="funnel-line" aria-hidden="true">
+          <span class="pulse" id="funnelPulse"></span>
+        </div>
+
         <div class="funnel-steps">
-          <button class="funnel-step"><div class="step-index">1</div><div class="step-body"><h4>Listen</h4><p class="step-excerpt">We start by listening — interviews, customer heatmaps, and empathy.</p><div class="step-details">Discovery calls, VOC research, hypothesis mapping.</div></div></button>
-          <button class="funnel-step"><div class="step-index">2</div><div class="step-body"><h4>Craft</h4><p class="step-excerpt">We create emotionally-resonant narratives and conversion-first creative.</p><div class="step-details">Frameworks, experiments, creative testing.</div></div></button>
-          <button class="funnel-step"><div class="step-index">3</div><div class="step-body"><h4>Grow</h4><p class="step-excerpt">We run experiments, measure impact, and scale the winners.</p><div class="step-details">Attribution, CRO, lifecycle design, scaling.</div></div></button>
+          <button class="funnel-step" data-step="1" aria-expanded="false">
+            <div class="step-index">1</div>
+            <div class="step-body">
+              <h4>Listen</h4>
+              <p class="step-excerpt">We start by listening — interviews, customer heatmaps, and empathetic discovery.</p>
+              <div class="step-details">Deep discovery calls, voice-of-customer research, problem framing and hypothesis mapping.</div>
+            </div>
+          </button>
+
+          <button class="funnel-step" data-step="2" aria-expanded="false">
+            <div class="step-index">2</div>
+            <div class="step-body">
+              <h4>Craft</h4>
+              <p class="step-excerpt">We craft emotionally-resonant narratives and conversion-first creative.</p>
+              <div class="step-details">Creative frameworks, landing page experiments, and ad creative testing.</div>
+            </div>
+          </button>
+
+          <button class="funnel-step" data-step="3" aria-expanded="false">
+            <div class="step-index">3</div>
+            <div class="step-body">
+              <h4>Grow</h4>
+              <p class="step-excerpt">We run experiments, measure impact, and scale the winners carefully.</p>
+              <div class="step-details">Attribution, CRO, lifecycle design and scale plans focused on LTV.</div>
+            </div>
+          </button>
         </div>
       </div>
     </section>
 
-    <section class="wrap books-section fade-up">
-      <h2 class="section-title">My Book — <em>The Winner’s Code</em></h2>
-      <div class="book-card card">
-        <img src="assets/images/book-preview.jpg" alt="The Winner’s Code" class="book-cover">
-        <div class="book-info">
-          <p class="lead">“Master Yourself. Shape Your World.” A guide to discipline, purpose, and meaningful success.</p>
+    <!-- BOOKS SECTION -->
+    <section class="wrap books-section">
+      <h2 class="section-title">Books — thought leadership</h2>
+      <div class="book-card reveal">
+        <img class="book-cover" src="assets/images/book-cover.jpg" alt="The Winner’s Code book cover" loading="lazy">
+        <div class="book-content">
+          <h3>The Winner’s Code:<br><small>Master Yourself. Shape Your World.</small></h3>
+          <p>My book explores how mastering your inner world creates real-world transformation. It's a guide for thinkers, dreamers, and doers to lead with purpose.</p>
           <div class="book-cta">
-            <a href="https://books.apple.com/ca/book/the-winners-code-master-yourself-shape-your-world/id6746102617" target="_blank" class="btn-primary animated-btn apple-btn"><span>🍏 Apple Books</span></a>
-            <a href="https://play.google.com/store/books/details?id=-X9bEQAAQBAJ" target="_blank" class="btn-ghost animated-btn glow-btn"><span>📗 Google Play Books</span></a>
+            <a href="https://books.apple.com" target="_blank" class="btn-primary animated-btn">Apple Books</a>
+            <a href="https://play.google.com/store/books/details?id=winnercode" target="_blank" class="btn-secondary animated-btn">Google Play</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="wrap contact-section fade-up">
+    <!-- CONTACT -->
+    <section id="contact" class="wrap contact-section">
       <h2 class="section-title">Start a conversation</h2>
-      <p class="lead">Share your goals — I’ll reply personally.</p>
-      <form id="contactForm" action="https://formspree.io/f/xnnggvnq" method="POST">
+      <p class="lead">Share a brief about your goals — I'll reply personally.</p>
+
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnnggvnq" method="POST">
         <label><span>Name</span><input name="name" required></label>
         <label><span>Email</span><input name="_replyto" type="email" required></label>
         <label><span>Message</span><textarea name="message" rows="4" required></textarea></label>
         <div class="form-actions">
-          <button type="submit" class="btn-primary animated-btn"><span>📨 Send Message</span></button>
-          <a class="btn-outline animated-btn email-btn" href="mailto:mhkvlog@gmail.com"><span>✉️ Email Me Directly</span></a>
+          <button type="submit" class="btn-primary animated-btn">Send message</button>
+          <a class="btn-secondary animated-btn" href="mailto:mhkvlog@gmail.com">Email me directly</a>
         </div>
       </form>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <div>© <span id="year"></span> Muhammad Haidar Khan</div>
@@ -105,6 +165,5 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
