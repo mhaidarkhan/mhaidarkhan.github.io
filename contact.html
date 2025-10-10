@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Muhammad Haidar Khan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="/index.html">haidar</a>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/work.html">Work</a>
+        <a href="/contact.html" class="cta">Contact</a>
+      </nav>
+      <div class="header-right">
+        <button id="themeToggle5" class="theme-toggle" aria-label="Toggle theme"><span id="themeIcon5">☀️</span></button>
+        <button id="menuBtn5" class="menu-btn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap contact-page">
+    <h1>Let's work together</h1>
+    <p class="muted">Tell me about your goals — I’ll respond within 48 hours.</p>
+
+    <form id="contactForm" action="https://formspree.io/f/xnnggvnq" method="POST" class="contact-form">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        <span>Email</span>
+        <input type="email" name="_replyto" required />
+      </label>
+
+      <label>
+        <span>Company / Website (optional)</span>
+        <input type="text" name="company" />
+      </label>
+
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <!-- optional honeypot -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Send message</button>
+        <a class="btn-ghost" href="mailto:mhkvlog@gmail.com">Email directly</a>
+      </div>
+
+      <input type="hidden" name="_subject" value="New contact from portfolio site">
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+
+    <div class="contact-note card">
+      <h4>Prefer email?</h4>
+      <p>mhkvlog@gmail.com</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>© <span id="year5"></span> Muhammad Haidar Khan</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
